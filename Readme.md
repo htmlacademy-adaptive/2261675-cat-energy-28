@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
-* Студент: [Влад Воробьев](https://up.htmlacademy.ru/adaptive/28/user/2261675).
-* Наставник: `Неизвестно`.
+- Студент: [Влад Воробьев](https://up.htmlacademy.ru/adaptive/28/user/2261675).
+- Наставник: [Татьяна Зуевич](https://htmlacademy.ru/profile/tatsi_zu).
 
 ---
 
