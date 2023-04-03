@@ -72,9 +72,10 @@
             type="number"
           />
         </div>
-        <div>
-          <div>
+        <div class="form-radio">
+          <div class="form-radio-list">
             <input
+              class="form-radio-list__item"
               checked
               tabindex="4"
               type="radio"
@@ -83,17 +84,29 @@
             />
             похудение
           </div>
-          <div>
-            <input tabindex="5" type="radio" name="weight" value="gain" /> Набор
-            массы
+          <div class="form-radio-list">
+            <input
+              class="form-radio-list__item"
+              tabindex="5"
+              type="radio"
+              name="weight"
+              value="gain"
+            />
+            Набор массы
           </div>
-          <div>
-            <input tabindex="6" type="radio" name="weight" value="unknown" /> Не
-            знаю (Нужен ваш совет)
+          <div class="form-radio-list">
+            <input
+              class="form-radio-list__item"
+              tabindex="6"
+              type="radio"
+              name="weight"
+              value="unknown"
+            />
+            Не знаю (Нужен ваш совет)
           </div>
         </div>
-        <div>
-          <h2>Контактные данные (владельца кота)</h2>
+        <div class="form-data">
+          <h2 class="form-subtitle">Контактные данные (владельца кота)</h2>
           <div class="form-input">
             <p class="form-input__text">E-mail:*</p>
             <input
@@ -115,18 +128,20 @@
             />
           </div>
         </div>
-        <div>
-          <h2>Комментарий</h2>
+        <div class="form-comment">
+          <h2 class="form-subtitle">Комментарий</h2>
           <textarea
+            class="form-comment__text"
             tabindex="9"
             placeholder="Расскажите обо всех повАдках кота"
             name="text"
           ></textarea>
         </div>
-        <div>
-          <h2>Дополнительно</h2>
-          <div>
+        <div class="form-add">
+          <h2 class="form-subtitle">Дополнительно</h2>
+          <div class="form-check-list">
             <input
+              class="form-check-item"
               tabindex="10"
               checked
               type="checkbox"
@@ -134,24 +149,27 @@
               value="yes"
             />сахарозаменитель
           </div>
-          <div>
+          <div class="form-check-list">
             <input
+              class="form-check-item"
               tabindex="11"
               type="checkbox"
               name="water"
               value="yes"
             />питьевая вода
           </div>
-          <div>
+          <div class="form-check-list">
             <input
+              class="form-check-item"
               tabindex="12"
               type="checkbox"
               name="milk"
               value="yes"
             />молоко
           </div>
-          <div>
+          <div class="form-check-list">
             <input
+              class="form-check-item"
               tabindex="13"
               type="checkbox"
               name="vitamins"
@@ -159,16 +177,18 @@
             />витамины
           </div>
         </div>
-        <div>
-          <button tabindex="14" type="submit">отправить заявку</button>
+        <div class="form-button">
+          <button class="form-button__mail" tabindex="14" type="submit">
+            отправить заявку
+          </button>
         </div>
-        <div>
-          <p>* — Обязательные поля</p>
+        <div class="form-desc">
+          <p class="form-desc__text">* — Обязательные поля</p>
         </div>
       </form>
       <div class="contacts">
-        <div class="contacts__info">
-          <p class="contacts__info-title">
+        <div class="contacts-info">
+          <p class="contacts-info__title">
             приглашаем к сотрудничеству дилеров!
           </p>
           <p class="contacts__info-text">
