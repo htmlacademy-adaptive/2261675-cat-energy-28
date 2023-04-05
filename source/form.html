@@ -39,140 +39,176 @@
           Заполните анкету, и мы подберем программу питания для вашего кота
         </p>
       </div>
-      <form class="main-form" action="#">
+      <form class="form" action="#">
         <div class="form-input">
-          <p class="form-input__text">ИМЯ:*</p>
-          <input
-            class="form-input__desc"
-            placeholder="барсик"
-            type="text"
-            tabindex="1"
-            name="username"
-          />
+          <label class="form-input__text"
+            >ИМЯ:*
+            <input
+              class="form-input__desc"
+              placeholder="барсик"
+              type="text"
+              tabindex="1"
+              name="username"
+              required
+            />
+          </label>
         </div>
         <div class="form-input">
-          <p class="form-input__text">Вес (кг):*</p>
-          <input
-            class="form-input__desc"
-            placeholder="7"
-            tabindex="2"
-            name="userweight"
-            type="number"
-          />
+          <label class="form-input__text"
+            >Вес (кг):*
+            <input
+              class="form-input__desc"
+              placeholder="7"
+              tabindex="2"
+              name="userweight"
+              type="number"
+              required
+            />
+          </label>
         </div>
         <div class="form-input">
-          <p class="form-input__text">Возраст (лет):</p>
-          <input
-            class="form-input__desc"
-            placeholder="7"
-            tabindex="3"
-            name="userage"
-            type="number"
-          />
+          <label class="form-input__text"
+            >Возраст (лет):
+            <input
+              class="form-input__desc"
+              placeholder="7"
+              tabindex="3"
+              name="userage"
+              type="number"
+            />
+          </label>
         </div>
         <div class="form-radio">
-          <div class="form-radio-list">
-            <input
-              class="form-radio-list__item"
-              checked
-              tabindex="4"
-              type="radio"
-              name="weight"
-              value="losing"
-            />
-            похудение
+          <div class="radio-list">
+            <label
+              >похудение
+              <input
+                class="radio-list__item"
+                checked
+                tabindex="4"
+                type="radio"
+                name="weight"
+                value="losing"
+              />
+            </label>
           </div>
-          <div class="form-radio-list">
-            <input
-              class="form-radio-list__item"
-              tabindex="5"
-              type="radio"
-              name="weight"
-              value="gain"
-            />
-            Набор массы
+          <div class="radio-list">
+            <label
+              >Набор массы
+              <input
+                class="radio-list__item"
+                tabindex="5"
+                type="radio"
+                name="weight"
+                value="gain"
+              />
+            </label>
           </div>
-          <div class="form-radio-list">
-            <input
-              class="form-radio-list__item"
-              tabindex="6"
-              type="radio"
-              name="weight"
-              value="unknown"
-            />
-            Не знаю (Нужен ваш совет)
+          <div class="radio-list">
+            <label
+              >Не знаю (Нужен ваш совет)
+              <input
+                class="radio-list__item"
+                tabindex="6"
+                type="radio"
+                name="weight"
+                value="unknown"
+              />
+            </label>
           </div>
         </div>
         <div class="form-data">
-          <h2 class="form-subtitle">Контактные данные (владельца кота)</h2>
+          <h2 class="form-data__subtitle">
+            Контактные данные (владельца кота)
+          </h2>
           <div class="form-input">
-            <p class="form-input__text">E-mail:*</p>
-            <input
-              class="form-input__desc"
-              placeholder="kuklachev@gmail.com"
-              type="email"
-              tabindex="7"
-              name="useremail"
-            />
+            <label class="form-input__text"
+              >E-mail:*
+              <input
+                class="form-input__desc"
+                placeholder="kuklachev@gmail.com"
+                type="email"
+                tabindex="7"
+                name="useremail"
+                required
+              />
+            </label>
           </div>
           <div class="form-input">
-            <p class="form-input__text">Телефон:*</p>
-            <input
-              class="form-input__desc"
-              placeholder="8 (960) 900-60-90"
-              type="tel"
-              tabindex="8"
-              name="usertel"
-            />
+            <label class="form-input__text"
+              >Телефон:*
+              <input
+                class="form-input__desc"
+                placeholder="8 (960) 900-60-90"
+                type="tel"
+                tabindex="8"
+                name="usertel"
+                required
+              />
+            </label>
           </div>
         </div>
         <div class="form-comment">
-          <h2 class="form-subtitle">Комментарий</h2>
-          <textarea
-            class="form-comment__text"
-            tabindex="9"
-            placeholder="Расскажите обо всех повАдках кота"
-            name="text"
-          ></textarea>
+          <label class="form-comment__subtitle"
+            >Комментарий
+            <textarea
+              class="form-comment__text"
+              tabindex="9"
+              placeholder="Расскажите обо всех повАдках кота"
+              name="text"
+            ></textarea>
+          </label>
         </div>
         <div class="form-add">
-          <h2 class="form-subtitle">Дополнительно</h2>
-          <div class="form-check-list">
-            <input
-              class="form-check-item"
-              tabindex="10"
-              checked
-              type="checkbox"
-              name="sugarsubstitute"
-              value="yes"
-            />сахарозаменитель
+          <h2 class="form-add__subtitle">Дополнительно</h2>
+          <div class="check-list">
+            <label
+              >сахарозаменитель
+              <input
+                class="check-list__item"
+                tabindex="10"
+                checked
+                type="checkbox"
+                name="sugarsubstitute"
+                value="yes"
+              />
+            </label>
           </div>
-          <div class="form-check-list">
-            <input
-              class="form-check-item"
-              tabindex="11"
-              type="checkbox"
-              name="water"
-              value="yes"
-            />питьевая вода
+          <div class="check-list">
+            <label
+              >питьевая вода
+              <input
+                class="check-list__item"
+                tabindex="11"
+                type="checkbox"
+                name="water"
+                value="yes"
+              />
+            </label>
           </div>
-          <div class="form-check-list">
-            <input
-              class="form-check-item"
-              tabindex="12"
-              type="checkbox"
-              name="milk"
-              value="yes"
-            />молоко
+          <div class="check-list">
+            <label
+              >молоко
+              <input
+                class="check-list__item"
+                tabindex="12"
+                type="checkbox"
+                name="milk"
+                value="yes"
+              />
+            </label>
           </div>
-          <div class="form-check-list">
-            <input
-              class="form-check-item"
-              tabindex="13"
-              type="checkbox"
-              name="vitamins"
-              value="yes"
-            />витамины
+          <div class="check-list">
+            <label
+              >витамины
+              <input
+                class="check-list__item"
+                tabindex="13"
+                type="checkbox"
+                name="vitamins"
+                value="yes"
+              />
+            </label>
           </div>
         </div>
         <div class="form-button">
