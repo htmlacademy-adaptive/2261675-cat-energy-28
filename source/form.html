@@ -15,7 +15,7 @@
           alt="Логотип"
         />
       </a>
-      <nav class="main-nav">
+      <nav class="main-header__main-nav main-nav">
         <button class="main-nav__toggle">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -33,57 +33,59 @@
       </nav>
     </header>
     <main class="main-form">
-      <div class="main-form__title form-header">
+      <div class="main-form__form-header form-header">
         <h1 class="form-header__title">Подбор программы</h1>
         <p class="form-header__text">
           Заполните анкету, и мы подберем программу питания для вашего кота
         </p>
       </div>
-      <form class="main-form__input form-input" action="#">
-        <div class="form-input__name">
-          <label class="form-input__name-text"
-            >ИМЯ:*
-            <input
-              class="form-input__name-desc"
-              placeholder="барсик"
-              type="text"
-              tabindex="1"
-              name="username"
-              required
-            />
-          </label>
+      <form class="main-form__form-input form-input" action="#">
+        <div class="form-input__name input-name">
+          <div class="input-name__item">
+            <label class="input-name__text"
+              >ИМЯ:*
+              <input
+                class="input-name__desc"
+                placeholder="барсик"
+                type="text"
+                tabindex="1"
+                name="username"
+                required
+              />
+            </label>
+          </div>
+          <div class="input-name__item">
+            <label class="form-name__text"
+              >Вес (кг):*
+              <input
+                class="input-name__desc"
+                placeholder="7"
+                tabindex="2"
+                name="userweight"
+                type="number"
+                required
+              />
+            </label>
+          </div>
+          <div class="input-name__item">
+            <label class="form-name__text"
+              >Возраст (лет):
+              <input
+                class="form-name__desc"
+                placeholder="7"
+                tabindex="3"
+                name="userage"
+                type="number"
+              />
+            </label>
+          </div>
         </div>
-        <div class="form-input__name">
-          <label class="form-input__name-text"
-            >Вес (кг):*
-            <input
-              class="form-input__name-desc"
-              placeholder="7"
-              tabindex="2"
-              name="userweight"
-              type="number"
-              required
-            />
-          </label>
-        </div>
-        <div class="form-input__name">
-          <label class="form-input__name-text"
-            >Возраст (лет):
-            <input
-              class="form-input__name-desc"
-              placeholder="7"
-              tabindex="3"
-              name="userage"
-              type="number"
-            />
-          </label>
-        </div>
-        <div class="form-input__radio">
-          <div class="form-input__radio-list">
-            <label
+        <div class="form-input__radio radio">
+          <div class="radio__list">
+            <label class="radio__text"
               >похудение
               <input
-                class="form-input__radio-item"
+                class="radio__item"
                 checked
                 tabindex="4"
                 type="radio"
@@ -92,11 +94,11 @@
               />
             </label>
           </div>
-          <div class="form-input__radio-list">
-            <label
+          <div class="radio__list">
+            <label class="radio__text"
               >Набор массы
               <input
-                class="form-input__radio-item"
+                class="radio__item"
                 tabindex="5"
                 type="radio"
                 name="weight"
@@ -104,11 +106,11 @@
               />
             </label>
           </div>
-          <div class="form-input__radio-list">
-            <label
+          <div class="radio__list">
+            <label class="radio__text"
               >Не знаю (Нужен ваш совет)
               <input
-                class="form-input__radio-item"
+                class="radio__item"
                 tabindex="6"
                 type="radio"
                 name="weight"
@@ -117,15 +119,15 @@
             </label>
           </div>
         </div>
-        <div class="form-input__data form-data">
+        <div class="form-input__form-data form-data">
           <h2 class="form-data__subtitle">
             Контактные данные (владельца кота)
           </h2>
-          <div class="form__data-input">
-            <label class="form__data-text"
+          <div class="form-data__input">
+            <label class="form-data__text"
               >E-mail:*
               <input
-                class="form__data-desc"
+                class="form-data__desc"
                 placeholder="kuklachev@gmail.com"
                 type="email"
                 tabindex="7"
@@ -134,11 +136,11 @@
               />
             </label>
           </div>
-          <div class="form__data-input">
-            <label class="form__data-text"
+          <div class="form-data__input">
+            <label class="form-data__text"
               >Телефон:*
               <input
-                class="form__data-desc"
+                class="form-data__desc"
                 placeholder="8 (960) 900-60-90"
                 type="tel"
                 tabindex="8"
@@ -148,7 +150,7 @@
             </label>
           </div>
         </div>
-        <div class="form-input__comment form-comment">
+        <div class="form-input__form-comment form-comment">
           <label class="form-comment__subtitle"
             >Комментарий
             <textarea
@@ -159,10 +161,10 @@
             ></textarea>
           </label>
         </div>
-        <div class="form-input__add form-add">
+        <div class="form-input__form-add form-add">
           <h2 class="form-add__subtitle">Дополнительно</h2>
           <div class="form-add__check-list">
-            <label
+            <label class="form-add__check-text"
               >сахарозаменитель
               <input
                 class="form-add__check-item"
@@ -175,7 +177,7 @@
             </label>
           </div>
           <div class="form-add__check-list">
-            <label
+            <label class="form-add__check-text"
               >питьевая вода
               <input
                 class="form-add__check-item"
@@ -187,7 +189,7 @@
             </label>
           </div>
           <div class="form-add__check-list">
-            <label
+            <label class="form-add__check-text"
               >молоко
               <input
                 class="form-add__check-item"
@@ -199,7 +201,7 @@
             </label>
           </div>
           <div class="form-add__check-list">
-            <label
+            <label class="form-add__check-text"
               >витамины
               <input
                 class="form-add__check-item"
@@ -212,25 +214,23 @@
           </div>
         </div>
         <button
-          class="form-input__button form-button"
+          class="form-input__form-button form-button"
           tabindex="14"
           type="submit"
         >
           отправить заявку
         </button>
 
-        <p class="form-input__desc desc-text">* — Обязательные поля</p>
+        <p class="form-input__desc-text desc-text">* — Обязательные поля</p>
       </form>
-      <div class="contacts">
-        <div class="contacts-info">
-          <p class="contacts-info__title">
-            приглашаем к сотрудничеству дилеров!
-          </p>
-          <p class="contacts-info__text">
+      <div class="main-form__contacts contacts">
+        <div class="contacts__info">
+          <p class="contacts__title">приглашаем к сотрудничеству дилеров!</p>
+          <p class="contacts__text">
             ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
           </p>
         </div>
-        <div class="location"></div>
+        <div class="form-input__location location"></div>
       </div>
     </main>
     <footer class="main-footer">
