@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>HTML Academy: Кэт энерджи</title>
   </head>
-  <body class="page__body">
-    <header class="main-header">
+  <body class="page">
+    <header class="page__main-header main-header">
       <a class="main-header__logo" href="#">
         <img
           class="main-header__logo-image"
@@ -15,7 +15,7 @@
           alt="Логотип"
         />
       </a>
-      <nav class="main-nav">
+      <nav class="main-header__main-nav main-nav">
         <button class="main-nav__toggle">
           <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -33,55 +33,53 @@
       </nav>
     </header>
     <main class="main-container">
-      <section class="promo">
+      <section class="main-container__promo promo">
         <div class="promo__wrapper">
           <h1 class="promo__title">Функциональное питание для котов</h1>
           <p class="promo__slogan">Занялся собой? Займись котом!</p>
-          <div class="promo__link-program program">
-            <a class="program__button" href="#">подобрать программу</a>
+          <div class="promo__button-block button-block">
+            <button class="button-block__button" href="#">
+              подобрать программу
+            </button>
           </div>
         </div>
       </section>
-      <section class="catalog">
+      <section class="main-container__catalog catalog">
         <h2 class="visually-hidden">Каталог товаров</h2>
-        <div class="catalog__program">
-          <a class="catalog-program__logo" href="#">
-            <img
-              src="../source/img/svg/cat_slim.svg"
-              alt="Logo cat-slim"
-              width="50"
-              height="53"
-            />
-          </a>
-          <p class="catalog-program__title">похудение</p>
-          <p clas="catalog-program__text">
+        <div class="catalog__program program">
+          <img
+            src="../source/img/svg/cat_slim.svg"
+            alt="Logo cat-slim"
+            width="50"
+            height="53"
+          />
+          <p class="program__title">похудение</p>
+          <p clas="program__text">
             Ваш кот весит больше собаки и почти утратил способность лазить по
             деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу
             сбросить лишний вес.
           </p>
-          <a class="catalog-program__link" href="#">каталог Slim</a>
+          <a class="program__link" href="#">каталог Slim</a>
         </div>
-        <div class="catalog__program">
-          <a class="catalog__program__logo" href="#">
-            <img
-              src="../source/img/svg/cat_pro.svg"
-              alt="Logo  cat-pro"
-              width="67"
-              height="50"
-            />
-          </a>
-          <p class="catalog-program__title">Набор массы</p>
-          <p class="catalog-program__text">
+        <div class="catalog__program program">
+          <img
+            src="../source/img/svg/cat_pro.svg"
+            alt="Logo  cat-pro"
+            width="67"
+            height="50"
+          />
+          <p class="program__title">Набор массы</p>
+          <p class="program__text">
             Заработать авторитет среди дворовых котов и даже собак? Серия Cat
             Energy Pro поможет вашему коту нарастить необходимые мышцы!
           </p>
-          <a class="catalog-program__link" href="#">каталог pro</a>
+          <a class="program__link" href="#">каталог pro</a>
         </div>
       </section>
-      <section class="advantages">
+      <section class="main-container__advantages advantages">
         <div class="advantages__wrapper">
           <h2 class="advantages__title">Как это работает</h2>
-          <ul class="advantages__list features">
+          <ul class="advantages__features features">
             <li class="features__item">
               <p class="features__item-text">
                 Функциональное питание содержит только полезные питательные
@@ -113,32 +111,31 @@
           </ul>
         </div>
       </section>
-      <section class="example">
-        <div class="example-header">
-          <h2 class="example-header__title">Живой пример</h2>
-          <p class="example-header__text">
-            Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на
-            Cat Energy Slim. Отличный результат без изнуряющих тренировок! При
-            этом он не менял своих привычек и по-прежнему спит по 16 часов в
-            день.
-          </p>
-        </div>
-        <div class="stats">
-          <div class="stats__content stats-program">
-            <p class="stats-program__content-title">5кг</p>
-            <p class="stats-program__content-text">снижение веса</p>
+      <section class="main-container__example example">
+        <h2 class="example__title">Живой пример</h2>
+        <p class="example__text">
+          Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на
+          Cat Energy Slim. Отличный результат без изнуряющих тренировок! При
+          этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+        </p>
+
+        <div class="example__stats stats">
+          <div class="stats__content">
+            <div class="stats__content-block">
+              <p class="stats__content-title">5кг</p>
+              <p class="stats__content-text">снижение веса</p>
+            </div>
+            <div class="stats__content-block">
+              <p class="stats__content-title">60 ДНЕЙ</p>
+              <p class="stats__content-text">затрачено времени</p>
+            </div>
           </div>
-          <div class="stats__content stats-program">
-            <p class="stats-program__content-title">60 ДНЕЙ</p>
-            <p class="stats-program__content-text">затрачено времени</p>
-          </div>
-          <span class="stats__price price"
-            >Затраты на питание: 15 000 РУБ.
-          </span>
+
+          <div class="stats__price">Затраты на питание: 15 000 РУБ.</div>
           <div class="stats__slider slider"></div>
         </div>
       </section>
-      <div class="contacts">
+      <div class="main-container__contacts contacts">
         <div class="contacts-info">
           <p class="contacts-info__title">
             приглашаем к сотрудничеству дилеров!
@@ -147,7 +144,7 @@
             ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
           </p>
         </div>
-        <div class="location"></div>
+        <div class="contacts__location location"></div>
       </div>
     </main>
     <footer class="main-footer">
