@@ -1,3 +1,41 @@
 // базовые стили
 @import "./basis/font.scss";
+
+// стили хедера
 @import "./header-block/main-header.scss";
+@import "./header-block/main-nav.scss";
+
+// стили main-index
+@import "./main-index-block/advantages.scss";
+@import "./main-index-block/button-block.scss";
+@import "./main-index-block/catalog.scss";
+@import "./main-index-block/example.scss";
+@import "./main-index-block/features.scss";
+@import "./main-index-block/main-container.scss";
+@import "./main-index-block/program.scss";
+@import "./main-index-block/promo.scss";
+@import "./main-index-block/slider.scss";
+@import "./main-index-block/stats.scss";
+
+// стили form-block
+@import "./main-form-block/desc-text.scss";
+@import "./main-form-block/form-add.scss";
+@import "./main-form-block/form-button.scss";
+@import "./main-form-block/form-comment.scss";
+@import "./main-form-block/form-header.scss";
+@import "./main-form-block/form-input.scss";
+@import "./main-form-block/form-date.scss";
+@import "./main-form-block/input-name.scss";
+@import "./main-form-block/main-form.scss";
+@import "./main-form-block/radio.scss";
+
+// стили catalog-block
+
+@import "./main-catalog-block/catalog-block.scss";
+@import "./main-catalog-block/catalog-button.scss";
+@import "./main-catalog-block/catalog-item.scss";
+@import "./main-catalog-block/catalog-title.scss";
+@import "./main-catalog-block/gitf-block.scss";
+@import "./main-catalog-block/main-catalog.scss";
+@import "./main-catalog-block/more-list.scss";
+@import "./main-catalog-block/product-more.scss";
