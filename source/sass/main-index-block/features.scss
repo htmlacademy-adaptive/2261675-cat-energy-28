@@ -1,3 +1,12 @@
 .features__item {
   @include list-reset;
 }
+
+.features__item-text {
+  font-family: "Lato", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
