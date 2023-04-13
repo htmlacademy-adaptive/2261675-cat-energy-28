@@ -1,9 +1,17 @@
+// глобальные стли
+@import "./global/page.scss";
+
 // базовые стили
 @import "./basis/font.scss";
+
+// миксины  и переменные
+@import "./basis/mixins.scss";
+@import "./basis/variables.scss";
 
 // стили хедера
 @import "./header-block/main-header.scss";
 @import "./header-block/main-nav.scss";
+
 // стили футера
 @import "./footer-block/copyright.scss";
 @import "./footer-block/footer-item.scss";
@@ -35,7 +43,6 @@
 @import "./main-form-block/radio.scss";
 
 // стили catalog-block
-
 @import "./main-catalog-block/catalog-block.scss";
 @import "./main-catalog-block/catalog-button.scss";
 @import "./main-catalog-block/catalog-item.scss";
