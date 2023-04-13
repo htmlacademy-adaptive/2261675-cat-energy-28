@@ -4,6 +4,11 @@
 // стили хедера
 @import "./header-block/main-header.scss";
 @import "./header-block/main-nav.scss";
+// стили футера
+@import "./footer-block/copyright.scss";
+@import "./footer-block/footer-item.scss";
+@import "./footer-block/main-footer.scss";
+@import "./footer-block/social.scss";
 
 // стили main-index
 @import "./main-index-block/advantages.scss";
