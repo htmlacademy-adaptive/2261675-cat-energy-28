@@ -1,13 +1,16 @@
 .promo__title {
+  @include list-reset;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
+  padding: 27px 35px 25px 35px;
 }
 
 .promo__slogan {
+  @include list-reset;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -15,4 +18,16 @@
   line-height: 14px;
   text-transform: uppercase;
   color: #ffffff;
+  padding: 0 62px 29px 60px;
+}
+
+.promo {
+  background-image: url("/source/img/jpg/cat-title.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  background-color: #ffffff;
+}
+
+.promo__wrapper {
 }

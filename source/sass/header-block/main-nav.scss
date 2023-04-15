@@ -1,20 +1,12 @@
 .main-nav__menu-item {
-  @include list-reset;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
-  color: #000000;
-}
-
-.main-nav {
-}
-.main-nav__toggle {
 }
 
 .main-nav__menu {
-}
-.main-nav__menu-item--active {
+  @include list-reset;
 }
