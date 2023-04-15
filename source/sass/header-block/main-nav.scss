@@ -10,3 +10,7 @@
 .main-nav__menu {
   @include list-reset;
 }
+
+.main-nav__menu-item a {
+  color: $dark-color;
+}

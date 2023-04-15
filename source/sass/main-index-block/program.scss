@@ -1,4 +1,6 @@
 .program__title {
+  @include list-reset;
+  display: inline-block;
   font-family: "Oswald", "Ariel", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -9,6 +11,8 @@
 }
 
 .program__text {
+  @include list-reset;
+  display: inline-block;
   font-family: "Lato", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;

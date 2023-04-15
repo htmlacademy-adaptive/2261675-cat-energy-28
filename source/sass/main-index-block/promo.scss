@@ -1,5 +1,6 @@
 .promo__title {
   @include list-reset;
+  display: inline-block;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,6 +12,7 @@
 
 .promo__slogan {
   @include list-reset;
+  display: inline-block;
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -22,12 +24,10 @@
 }
 
 .promo {
-  background-image: url("/source/img/jpg/cat-title.jpg");
+  min-height: 302px;
+  background-image: url("../img/jpg/cat-title.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto;
+  background-size: cover;
   background-color: #ffffff;
-}
-
-.promo__wrapper {
 }
