@@ -9,8 +9,13 @@
 
 .main-nav__menu {
   @include list-reset;
+  display: none;
 }
 
 .main-nav__menu-item a {
   color: $dark-color;
+}
+
+.main-nav__toggle {
+  border: none;
 }

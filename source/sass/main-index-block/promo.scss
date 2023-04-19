@@ -1,33 +1,32 @@
-.promo__title {
-  @include list-reset;
-  display: inline-block;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 36px;
-  color: #ffffff;
-  padding: 27px 35px 25px 35px;
-}
-
-.promo__slogan {
-  @include list-reset;
-  display: inline-block;
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 0 62px 29px 60px;
-}
-
 .promo {
-  min-height: 302px;
   background-image: url("../img/jpg/cat-title.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: #ffffff;
+
+  &__title {
+    margin: 0;
+    min-width: 249px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &__slogan {
+    margin: 0;
+    margin-bottom: 302px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &__button-block {
+    margin: 0 auto;
+  }
 }

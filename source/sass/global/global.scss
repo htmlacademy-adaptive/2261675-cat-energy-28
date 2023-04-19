@@ -2,6 +2,12 @@ html {
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -13,6 +19,12 @@ html {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.container {
+  min-width: 320px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 a {
