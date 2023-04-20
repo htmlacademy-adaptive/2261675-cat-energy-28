@@ -7,6 +7,8 @@
 
   &__title {
     margin: 0;
+    padding-top: 27px;
+    padding-bottom: 25px;
     max-width: 249px;
     font-weight: 400;
     font-size: 36px;
@@ -17,7 +19,7 @@
 
   &__slogan {
     margin: 0;
-    margin-bottom: 302px;
+    padding-bottom: 29px;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
@@ -26,7 +28,7 @@
     text-align: center;
   }
 
-  &__button-block {
-    margin: 0 auto;
+  &__promo-img {
+    padding-bottom: 3px;
   }
 }

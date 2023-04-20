@@ -1,18 +1,18 @@
 .main-header {
   background-color: #ffffff;
-}
 
-.main-header__wrapper {
-  display: flex;
-  align-items: center;
-  padding-top: 10px;
-  padding-bottom: 18px;
-}
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 18px;
+  }
 
-.main-header__logo-cat {
-  margin-right: 56px;
-}
+  &__logo-cat {
+    margin-right: 56px;
+  }
 
-.main-header__logo-html {
-  margin-right: 65px;
+  &__logo-html {
+    margin-right: 65px;
+  }
 }
