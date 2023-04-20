@@ -2,12 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="page">
     <header class="page__main-header main-header">
-      <div class="container">
+      <div class="main-header__wrapper container">
         <a class="main-header__logo" href="#">
           <img
             class="main-header__logo-cat"
@@ -16,6 +17,8 @@
             height="38"
             alt="Логотип"
           />
+        </a>
+        <a class="main-header__logo-html" href="#">
           <img
             class="main-header__logo-catenergy"
             src="./img/svg/logo_cat_enegy.svg"
@@ -51,11 +54,10 @@
     <main class="main-container">
       <section class="main-container__promo promo">
         <div class="promo__wrapper">
-          <h1 class="promo__title">
-            Функциональное <br />
-            питание для котов
-          </h1>
+          <h1 class="promo__title">Функциональное питание для котов</h1>
           <p class="promo__slogan">Занялся собой? Займись котом!</p>
+        </div>
+        <div class="promo__img">
           <img
             class="promo__img"
             src="./img/png/cat-main.png"
@@ -63,7 +65,8 @@
             height="270"
             alt="фото корма"
           />
-          <div class="promo__button-block button-block container">
+        </div>
+          <div class="promo__button-block button-block">
             <button class="button-block__button" href="#">
               подобрать программу
             </button>
