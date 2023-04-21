@@ -1,3 +1,8 @@
+.example {
+  background-color: $green-color;
+  padding-bottom: 40px;
+}
+
 .example__title {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
@@ -5,6 +10,8 @@
   font-size: 36px;
   line-height: 40px;
   color: #000000;
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
 
 .example__text {
@@ -14,4 +21,5 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+  padding-bottom: 20px;
 }

@@ -1,5 +1,4 @@
 .stats__content-title {
-  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -17,11 +16,19 @@
 }
 
 .stats__price {
-  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+  text-align: center;
   color: #000000;
+  padding-bottom: 20px;
+}
+
+.stats__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
