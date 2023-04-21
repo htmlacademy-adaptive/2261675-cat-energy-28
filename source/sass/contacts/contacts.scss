@@ -1,18 +1,26 @@
-.contacts__info-title {
-  font-family: "Oswald", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #111111;
-}
+.contacts {
+  &__container {
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    padding: 26px 20px 26px 20px;
+  }
 
-.contacts__info-text {
-  font-family: "Lato", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #444444;
+  &__info-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #111111;
+  }
+
+  &__info-text {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #444444;
+  }
 }
