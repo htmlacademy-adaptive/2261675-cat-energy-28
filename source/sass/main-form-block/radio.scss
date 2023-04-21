@@ -1,3 +1,17 @@
+.radio {
+  padding-top: 22px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d9d9d9;
+
+  &__list {
+    padding-bottom: 13px;
+  }
+
+  &__item {
+    margin-right: 15px;
+  }
+}
+
 .radio__text {
   font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
