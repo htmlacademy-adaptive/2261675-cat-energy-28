@@ -2,36 +2,54 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HTML Academy: Кэт энерджи</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="page">
     <header class="page__main-header main-header">
-      <a class="main-header__logo" href="#">
-        <img
-          class="main-header__logo-image"
-          src="../source/img/svg/logo.svg"
-          width="202"
-          height="59"
-          alt="Логотип"
-        />
-      </a>
-      <nav class="main-header__main-nav main-nav">
-        <button class="main-nav__toggle">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-        <ul class="main-nav__menu">
-          <li class="main-nav__menu-item">
-            <a href="index.html">главная</a>
-          </li>
-          <li class="main-nav__menu-item">
-            <a href="catalog.html">каталог продукции</a>
-          </li>
-          <li class="main-nav__menu-item main-nav__menu-item--active">
-            <a href="form.html">подбор программы</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="main-header__wrapper container">
+        <a class="main-header__logo" href="#">
+          <img
+            class="main-header__logo-cat"
+            src="./img/svg/logo-mobile.svg"
+            width="33"
+            height="38"
+            alt="Логотип"
+          />
+        </a>
+        <a class="main-header__logo-html" href="#">
+          <img
+            class="main-header__logo-catenergy"
+            src="./img/svg/logo_cat_enegy.svg"
+            width="101"
+            height="18"
+            alt="Логотип"
+          />
+        </a>
+        <nav class="main-header__main-nav main-nav">
+          <button class="main-nav__toggle">
+            <img
+              src="./img/svg/nav_open.svg"
+              width="24"
+              height="16"
+              alt="кнопка меню"
+            />
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+          <ul class="main-nav__menu">
+            <li class="main-nav__menu-item main-nav__menu-item--active">
+              <a href="index.html">главная</a>
+            </li>
+            <li class="main-nav__menu-item">
+              <a href="catalog.html">каталог продукции</a>
+            </li>
+            <li class="main-nav__menu-item">
+              <a href="form.html">подбор программы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main-form">
       <div class="main-form__form-header form-header">
@@ -41,188 +59,190 @@
         </p>
       </div>
       <form class="main-form__form-input form-input" action="#">
-        <div class="form-input__name input-name">
-          <div class="input-name__item">
-            <label class="input-name__text"
-              >ИМЯ:*
-              <input
-                class="input-name__desc"
-                placeholder="барсик"
-                type="text"
-                tabindex="1"
-                name="username"
-                required
-              />
+        <div class="container">
+          <div class="form-input__name input-name">
+            <div class="input-name__item">
+              <label class="input-name__text"
+                >ИМЯ:*
+                <input
+                  class="input-name__desc"
+                  placeholder="барсик"
+                  type="text"
+                  tabindex="1"
+                  name="username"
+                  required
+                />
+              </label>
+            </div>
+            <div class="input-name__item">
+              <label class="input-name__text"
+                >Вес (кг):*
+                <input
+                  class="input-name__desc"
+                  placeholder="7"
+                  tabindex="2"
+                  name="userweight"
+                  type="number"
+                  required
+                />
+              </label>
+            </div>
+            <div class="input-name__item">
+              <label class="input-name__text"
+                >Возраст (лет):
+                <input
+                  class="input-name__desc"
+                  placeholder="7"
+                  tabindex="3"
+                  name="userage"
+                  type="number"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="form-input__radio radio">
+            <div class="radio__list">
+              <label class="radio__text"
+                >похудение
+                <input
+                  class="radio__item"
+                  checked
+                  tabindex="4"
+                  type="radio"
+                  name="weight"
+                  value="losing"
+                />
+              </label>
+            </div>
+            <div class="radio__list">
+              <label class="radio__text"
+                >Набор массы
+                <input
+                  class="radio__item"
+                  tabindex="5"
+                  type="radio"
+                  name="weight"
+                  value="gain"
+                />
+              </label>
+            </div>
+            <div class="radio__list">
+              <label class="radio__text"
+                >Не знаю (Нужен ваш совет)
+                <input
+                  class="radio__item"
+                  tabindex="6"
+                  type="radio"
+                  name="weight"
+                  value="unknown"
+                />
+              </label>
+            </div>
+          </div>
+          <div class="form-input__form-data form-data">
+            <h2 class="form-data__subtitle">
+              Контактные данные (владельца кота)
+            </h2>
+            <div class="form-data__input">
+              <label class="form-data__text"
+                >E-mail:*
+                <input
+                  class="form-data__text"
+                  placeholder="kuklachev@gmail.com"
+                  type="email"
+                  tabindex="7"
+                  name="useremail"
+                  required
+                />
+              </label>
+            </div>
+            <div class="form-data__input">
+              <label class="form-data__text"
+                >Телефон:*
+                <input
+                  class="form-data__text"
+                  placeholder="8 (960) 900-60-90"
+                  type="tel"
+                  tabindex="8"
+                  name="usertel"
+                  required
+                />
+              </label>
+            </div>
+          </div>
+          <div class="form-input__form-comment form-comment">
+            <label class="form-comment__subtitle"
+              >Комментарий
+              <textarea
+                class="form-comment__text"
+                tabindex="9"
+                placeholder="Расскажите обо всех повАдках кота"
+                name="text"
+              ></textarea>
             </label>
           </div>
-          <div class="input-name__item">
-            <label class="input-name__text"
-              >Вес (кг):*
-              <input
-                class="input-name__desc"
-                placeholder="7"
-                tabindex="2"
-                name="userweight"
-                type="number"
-                required
-              />
-            </label>
+          <div class="form-input__form-add form-add">
+            <h2 class="form-add__subtitle">Дополнительно</h2>
+            <div class="form-add__check-list">
+              <label class="form-add__check-text"
+                >сахарозаменитель
+                <input
+                  class="form-add__check-item"
+                  tabindex="10"
+                  checked
+                  type="checkbox"
+                  name="sugarsubstitute"
+                  value="yes"
+                />
+              </label>
+            </div>
+            <div class="form-add__check-list">
+              <label class="form-add__check-text"
+                >питьевая вода
+                <input
+                  class="form-add__check-item"
+                  tabindex="11"
+                  type="checkbox"
+                  name="water"
+                  value="yes"
+                />
+              </label>
+            </div>
+            <div class="form-add__check-list">
+              <label class="form-add__check-text"
+                >молоко
+                <input
+                  class="form-add__check-item"
+                  tabindex="12"
+                  type="checkbox"
+                  name="milk"
+                  value="yes"
+                />
+              </label>
+            </div>
+            <div class="form-add__check-list">
+              <label class="form-add__check-text"
+                >витамины
+                <input
+                  class="form-add__check-item"
+                  tabindex="13"
+                  type="checkbox"
+                  name="vitamins"
+                  value="yes"
+                />
+              </label>
+            </div>
           </div>
-          <div class="input-name__item">
-            <label class="input-name__text"
-              >Возраст (лет):
-              <input
-                class="input-name__desc"
-                placeholder="7"
-                tabindex="3"
-                name="userage"
-                type="number"
-              />
-            </label>
-          </div>
-        </div>
-        <div class="form-input__radio radio">
-          <div class="radio__list">
-            <label class="radio__text"
-              >похудение
-              <input
-                class="radio__item"
-                checked
-                tabindex="4"
-                type="radio"
-                name="weight"
-                value="losing"
-              />
-            </label>
-          </div>
-          <div class="radio__list">
-            <label class="radio__text"
-              >Набор массы
-              <input
-                class="radio__item"
-                tabindex="5"
-                type="radio"
-                name="weight"
-                value="gain"
-              />
-            </label>
-          </div>
-          <div class="radio__list">
-            <label class="radio__text"
-              >Не знаю (Нужен ваш совет)
-              <input
-                class="radio__item"
-                tabindex="6"
-                type="radio"
-                name="weight"
-                value="unknown"
-              />
-            </label>
-          </div>
-        </div>
-        <div class="form-input__form-data form-data">
-          <h2 class="form-data__subtitle">
-            Контактные данные (владельца кота)
-          </h2>
-          <div class="form-data__input">
-            <label class="form-data__text"
-              >E-mail:*
-              <input
-                class="form-data__text"
-                placeholder="kuklachev@gmail.com"
-                type="email"
-                tabindex="7"
-                name="useremail"
-                required
-              />
-            </label>
-          </div>
-          <div class="form-data__input">
-            <label class="form-data__text"
-              >Телефон:*
-              <input
-                class="form-data__text"
-                placeholder="8 (960) 900-60-90"
-                type="tel"
-                tabindex="8"
-                name="usertel"
-                required
-              />
-            </label>
-          </div>
-        </div>
-        <div class="form-input__form-comment form-comment">
-          <label class="form-comment__subtitle"
-            >Комментарий
-            <textarea
-              class="form-comment__text"
-              tabindex="9"
-              placeholder="Расскажите обо всех повАдках кота"
-              name="text"
-            ></textarea>
-          </label>
-        </div>
-        <div class="form-input__form-add form-add">
-          <h2 class="form-add__subtitle">Дополнительно</h2>
-          <div class="form-add__check-list">
-            <label class="form-add__check-text"
-              >сахарозаменитель
-              <input
-                class="form-add__check-item"
-                tabindex="10"
-                checked
-                type="checkbox"
-                name="sugarsubstitute"
-                value="yes"
-              />
-            </label>
-          </div>
-          <div class="form-add__check-list">
-            <label class="form-add__check-text"
-              >питьевая вода
-              <input
-                class="form-add__check-item"
-                tabindex="11"
-                type="checkbox"
-                name="water"
-                value="yes"
-              />
-            </label>
-          </div>
-          <div class="form-add__check-list">
-            <label class="form-add__check-text"
-              >молоко
-              <input
-                class="form-add__check-item"
-                tabindex="12"
-                type="checkbox"
-                name="milk"
-                value="yes"
-              />
-            </label>
-          </div>
-          <div class="form-add__check-list">
-            <label class="form-add__check-text"
-              >витамины
-              <input
-                class="form-add__check-item"
-                tabindex="13"
-                type="checkbox"
-                name="vitamins"
-                value="yes"
-              />
-            </label>
-          </div>
-        </div>
-        <button
-          class="form-input__form-button form-button"
-          tabindex="14"
-          type="submit"
-        >
-          отправить заявку
-        </button>
+          <button
+            class="form-input__form-button form-button"
+            tabindex="14"
+            type="submit"
+          >
+            отправить заявку
+          </button>
 
-        <p class="form-input__desc-text desc-text">* — Обязательные поля</p>
+          <p class="form-input__desc-text desc-text">* — Обязательные поля</p>
+        </div>
       </form>
       <div class="main-form__contacts contacts">
         <div class="contacts__info">
