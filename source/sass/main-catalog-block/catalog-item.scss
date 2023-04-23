@@ -1,5 +1,4 @@
 .catalog-item__title {
-  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -9,10 +8,38 @@
 }
 
 .catalog-item__text {
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #444444;
+}
+
+.catalog-item {
+  &__title {
+    max-width: 76px;
+    padding-bottom: 18px;
+  }
+
+  &__catalog-button {
+    margin-top: 22px;
+    margin-bottom: 25px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__info-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // &__img {
+  //   position: absolute;
+  //   top: 8px;
+  //   left: 20px;
+  // }
 }
