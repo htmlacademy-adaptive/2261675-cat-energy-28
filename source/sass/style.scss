@@ -11,48 +11,48 @@
 @import "./global/global.scss";
 
 // стили хедера
-@import "./header-block/main-header.scss";
-@import "./header-block/main-nav.scss";
+@import "./header/main-header.scss";
+@import "./header/main-nav.scss";
 
 // стили футера
 @import "./contacts/contacts.scss";
 @import "./contacts/location.scss";
-@import "./footer-block/copyright.scss";
-@import "./footer-block/footer-item.scss";
-@import "./footer-block/main-footer.scss";
-@import "./footer-block/social.scss";
+@import "./footer/copyright.scss";
+@import "./footer/footer-item.scss";
+@import "./footer/main-footer.scss";
+@import "./footer/social.scss";
 
-// стили main-index
-@import "./main-index-block/advantages.scss";
-@import "./main-index-block/button-block.scss";
-@import "./main-index-block/catalog.scss";
-@import "./main-index-block/example.scss";
-@import "./main-index-block/features.scss";
-@import "./main-index-block/main-container.scss";
-@import "./main-index-block/program.scss";
-@import "./main-index-block/promo.scss";
-@import "./main-index-block/slider.scss";
-@import "./main-index-block/stats.scss";
+// стили index
+@import "./index/advantages.scss";
+@import "./index/button-block.scss";
+@import "./index/catalog.scss";
+@import "./index/example.scss";
+@import "./index/features.scss";
+@import "./index/main-container.scss";
+@import "./index/program.scss";
+@import "./index/promo.scss";
+@import "./index/slider.scss";
+@import "./index/stats.scss";
 
-// стили form-block
-@import "./main-form-block/desc-text.scss";
-@import "./main-form-block/form-add.scss";
-@import "./main-form-block/form-button.scss";
-@import "./main-form-block/form-comment.scss";
-@import "./main-form-block/form-header.scss";
-@import "./main-form-block/form-input.scss";
-@import "./main-form-block/form-date.scss";
-@import "./main-form-block/input-name.scss";
-@import "./main-form-block/main-form.scss";
-@import "./main-form-block/radio.scss";
+// стили block
+@import "./form/desc-text.scss";
+@import "./form/form-add.scss";
+@import "./form/form-button.scss";
+@import "./form/form-comment.scss";
+@import "./form/form-header.scss";
+@import "./form/form-input.scss";
+@import "./form/form-date.scss";
+@import "./form/input-name.scss";
+@import "./form/main-form.scss";
+@import "./form/radio.scss";
 
-// стили catalog-block
-@import "./main-catalog-block/catalog-block.scss";
-@import "./main-catalog-block/catalog-button.scss";
-@import "./main-catalog-block/catalog-item.scss";
-@import "./main-catalog-block/catalog-title.scss";
-@import "./main-catalog-block/gitf-block.scss";
-@import "./main-catalog-block/main-catalog.scss";
-@import "./main-catalog-block/more-list.scss";
-@import "./main-catalog-block/product-more.scss";
-@import "./main-catalog-block/item-all.scss";
+// стили block
+@import "./catalog/catalog-block.scss";
+@import "./catalog/catalog-button.scss";
+@import "./catalog/catalog-item.scss";
+@import "./catalog/catalog-title.scss";
+@import "./catalog/gitf-block.scss";
+@import "./catalog/main-catalog.scss";
+@import "./catalog/more-list.scss";
+@import "./catalog/product-more.scss";
+@import "./catalog/item-all.scss";

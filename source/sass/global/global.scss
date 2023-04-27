@@ -17,17 +17,17 @@
   margin: 0 auto;
 }
 
-// @media (min-width: $tablet-width) {
+// @media (max-width: $tablet-width) {
 //   .container {
-//     min-width: 769px;
+//     min-width: 709px;
 //     padding: 0 30px;
 //     margin: 0 auto;
 //   }
 // }
 
-// @media (min-width: $destop-width) {
+// @media (max-width: $destop-width) {
 //   .container {
-//     min-width: 1440px;
+//     min-width: 1220px;
 //     padding: 0 110px;
 //     margin: 0 auto;
 //   }
