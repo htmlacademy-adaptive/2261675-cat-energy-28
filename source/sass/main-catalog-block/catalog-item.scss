@@ -5,6 +5,8 @@
   line-height: 20px;
   text-transform: uppercase;
   color: #111111;
+  max-width: 76px;
+  padding-bottom: 18px;
 }
 
 .catalog-item__text {
@@ -17,11 +19,6 @@
 }
 
 .catalog-item {
-  &__title {
-    max-width: 76px;
-    padding-bottom: 18px;
-  }
-
   &__catalog-button {
     margin-top: 22px;
     margin-bottom: 25px;

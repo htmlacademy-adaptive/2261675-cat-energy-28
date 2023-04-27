@@ -22,10 +22,26 @@ html {
 }
 
 .container {
-  width: 320px;
+  min-width: 280px;
   padding: 0 20px;
   margin: 0 auto;
 }
+
+// @media (min-width: $tablet-width) {
+//   .container {
+//     min-width: 769px;
+//     padding: 0 30px;
+//     margin: 0 auto;
+//   }
+// }
+
+// @media (min-width: $destop-width) {
+//   .container {
+//     min-width: 1440px;
+//     padding: 0 110px;
+//     margin: 0 auto;
+//   }
+// }
 
 a {
   text-decoration: none;

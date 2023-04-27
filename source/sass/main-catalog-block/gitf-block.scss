@@ -1,9 +1,6 @@
 .gitf-block {
   min-height: 289px;
-  background-image: url("../img/jpg/cat-catalog.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #ffffff url("../img/jpg/cat-catalog.jpg") no-repeat center / cover;
 
   &__icon {
     margin-bottom: 48px;

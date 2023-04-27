@@ -3,16 +3,9 @@
 
   &__wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 18px;
-  }
-
-  &__logo-cat {
-    margin-right: 56px;
-  }
-
-  &__logo-html {
-    margin-right: 65px;
   }
 }
