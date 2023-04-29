@@ -14,25 +14,23 @@
   color: #444444;
 }
 
-.catalog-item {
-  &__catalog-button {
-    margin-top: 22px;
-    margin-bottom: 25px;
-  }
-
-  &__info {
-    display: flex;
-    flex-direction: column;
-  }
-
-  &__info-item {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  // &__img {
-  //   position: absolute;
-  //   top: 8px;
-  //   left: 20px;
-  // }
+.catalog-item__catalog-button {
+  margin-top: 22px;
+  margin-bottom: 25px;
 }
+
+.catalog-item__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-item__info-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+// &__img {
+//   position: absolute;
+//   top: 8px;
+//   left: 20px;
+// }
