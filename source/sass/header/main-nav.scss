@@ -3,18 +3,48 @@
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $destop-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .main-nav__menu {
   @include list-reset;
-  display: block;
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+  }
+
+  @media (min-width: $destop-width) {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+  }
 }
 
 .main-nav__menu-item a {
   color: $dark-color;
+
+  @media (min-width: $destop-width) {
+    color: #ffffff;
+  }
 }
 
 .main-nav__toggle {
   border: none;
   background-color: #ffffff;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
