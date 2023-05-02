@@ -1,13 +1,6 @@
 .gitf-block {
-  min-height: 289px;
+  min-height: 290px;
   background: #ffffff url("../img/jpg/cat-catalog.jpg") no-repeat center / cover;
-}
-
-.gitf-block__icon {
-  margin-bottom: 48px;
-  position: absolute;
-  top: 58px;
-  left: 100px;
 }
 
 .gitf-block__text {
@@ -18,4 +11,5 @@
   text-align: center;
   max-width: 161px;
   display: inline-block;
+  padding-top: 48px;
 }
