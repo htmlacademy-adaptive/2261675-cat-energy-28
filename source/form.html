@@ -9,7 +9,7 @@
   <body class="page">
     <header class="page__main-header main-header">
       <div class="main-header__wrapper container">
-        <a class="main-header__logo" href="#">
+        <a class="main-header__logo" href="index.html">
           <img
             class="main-header__logo-cat"
             src="./img/svg/logo-mobile.svg"
@@ -18,7 +18,7 @@
             alt="Логотип"
           />
         </a>
-        <a class="main-header__logo-html" href="#">
+        <a class="main-header__logo-html" href="index.html">
           <img
             class="main-header__logo-catenergy"
             src="./img/svg/logo_cat_enegy.svg"
@@ -55,189 +55,188 @@
       <div class="main-form__form-header form-header">
         <h1 class="form-header__title">Подбор программы</h1>
         <p class="form-header__text">
-          Заполните анкету, и мы подберем программу питания для вашего кота
+          Заполните анкету, и мы подберем <br />
+          программу питания для вашего кота
         </p>
       </div>
       <form class="main-form__form-input form-input" action="#">
-        <div class="container">
-          <div class="form-input__name input-name">
-            <div class="input-name__item">
-              <label class="input-name__text"
-                >ИМЯ:*
-                <input
-                  class="input-name__desc"
-                  placeholder="барсик"
-                  type="text"
-                  tabindex="1"
-                  name="username"
-                  required
-                />
-              </label>
-            </div>
-            <div class="input-name__item">
-              <label class="input-name__text"
-                >Вес (кг):*
-                <input
-                  class="input-name__desc"
-                  placeholder="7"
-                  tabindex="2"
-                  name="userweight"
-                  type="number"
-                  required
-                />
-              </label>
-            </div>
-            <div class="input-name__item">
-              <label class="input-name__text"
-                >Возраст (лет):
-                <input
-                  class="input-name__desc"
-                  placeholder="7"
-                  tabindex="3"
-                  name="userage"
-                  type="number"
-                />
-              </label>
-            </div>
+        <div class="form-input__name input-name container">
+          <div class="input-name__item">
+            <label class="input-name__text"
+              >ИМЯ:*
+              <input
+                class="input-name__desc"
+                placeholder="барсик"
+                type="text"
+                tabindex="1"
+                name="username"
+                required
+              />
+            </label>
           </div>
-          <div class="form-input__radio radio">
-            <div class="radio__list">
-              <label class="radio__text">
-                <input
-                  class="radio__item"
-                  checked
-                  tabindex="4"
-                  type="radio"
-                  name="weight"
-                  value="losing"
-                />похудение
-              </label>
-            </div>
-            <div class="radio__list">
-              <label class="radio__text">
-                <input
-                  class="radio__item"
-                  tabindex="5"
-                  type="radio"
-                  name="weight"
-                  value="gain"
-                />Набор массы
-              </label>
-            </div>
-            <div class="radio__list">
-              <label class="radio__text">
-                <input
-                  class="radio__item"
-                  tabindex="6"
-                  type="radio"
-                  name="weight"
-                  value="unknown"
-                />Не знаю (Нужен ваш совет)
-              </label>
-            </div>
+          <div class="input-name__item">
+            <label class="input-name__text"
+              >Вес(кг):*
+              <input
+                class="input-name__desc"
+                placeholder="7"
+                tabindex="2"
+                name="userweight"
+                type="number"
+                required
+              />
+            </label>
           </div>
-          <div class="form-input__form-data form-data">
-            <h2 class="form-data__subtitle">
-              Контактные данные (владельца кота)
-            </h2>
-            <div class="form-data__input">
-              <label class="form-data__text"
-                >E-mail:*
-                <input
-                  class="form-data__text-input"
-                  placeholder="kuklachev@gmail.com"
-                  type="email"
-                  tabindex="7"
-                  name="useremail"
-                  required
-                />
-              </label>
-            </div>
-            <div class="form-data__input">
-              <label class="form-data__text"
-                >Телефон:*
-                <input
-                  class="form-data__text-input"
-                  placeholder="8 (960) 900-60-90"
-                  type="tel"
-                  tabindex="8"
-                  name="usertel"
-                  required
-                />
-              </label>
-            </div>
+          <div class="input-name__item">
+            <label class="input-name__text"
+              >Возраст(лет):
+              <input
+                class="input-name__desc"
+                placeholder="7"
+                tabindex="3"
+                name="userage"
+                type="number"
+              />
+            </label>
           </div>
-          <div class="form-input__form-comment form-comment">
-            <h2 class="form-comment__subtitle">Комментарий</h2>
-            <textarea
-              class="form-comment__text"
-              tabindex="9"
-              placeholder="Расскажите обо всех повАдках кота"
-              name="text"
-            ></textarea>
-          </div>
-          <div class="form-input__form-add form-add">
-            <h2 class="form-add__subtitle">Дополнительно</h2>
-            <div class="form-add__check-list">
-              <label class="form-add__check-text">
-                <input
-                  class="form-add__check-item"
-                  tabindex="10"
-                  checked
-                  type="checkbox"
-                  name="sugarsubstitute"
-                  value="yes"
-                />
-                сахарозаменитель
-              </label>
-            </div>
-            <div class="form-add__check-list">
-              <label class="form-add__check-text">
-                <input
-                  class="form-add__check-item"
-                  tabindex="11"
-                  type="checkbox"
-                  name="water"
-                  value="yes"
-                />
-                питьевая вода
-              </label>
-            </div>
-            <div class="form-add__check-list">
-              <label class="form-add__check-text">
-                <input
-                  class="form-add__check-item"
-                  tabindex="12"
-                  type="checkbox"
-                  name="milk"
-                  value="yes"
-                />
-                молоко
-              </label>
-            </div>
-            <div class="form-add__check-list">
-              <label class="form-add__check-text">
-                <input
-                  class="form-add__check-item"
-                  tabindex="13"
-                  type="checkbox"
-                  name="vitamins"
-                  value="yes"
-                />
-                витамины
-              </label>
-            </div>
-          </div>
-          <button
-            class="form-input__form-button form-button"
-            tabindex="14"
-            type="submit"
-          >
-            отправить заявку
-          </button>
-
-          <p class="form-input__desc-text desc-text">* — Обязательные поля</p>
         </div>
+        <div class="form-input__radio radio">
+          <div class="radio__list">
+            <label class="radio__text">
+              <input
+                class="radio__item"
+                checked
+                tabindex="4"
+                type="radio"
+                name="weight"
+                value="losing"
+              />похудение
+            </label>
+          </div>
+          <div class="radio__list">
+            <label class="radio__text">
+              <input
+                class="radio__item"
+                tabindex="5"
+                type="radio"
+                name="weight"
+                value="gain"
+              />Набор массы
+            </label>
+          </div>
+          <div class="radio__list">
+            <label class="radio__text">
+              <input
+                class="radio__item"
+                tabindex="6"
+                type="radio"
+                name="weight"
+                value="unknown"
+              />Не знаю (Нужен ваш совет)
+            </label>
+          </div>
+        </div>
+        <div class="form-input__form-data form-data">
+          <h2 class="form-data__subtitle">
+            Контактные данные (владельца кота)
+          </h2>
+          <div class="form-data__input">
+            <label class="form-data__text"
+              >E-mail:*
+              <input
+                class="form-data__text-input"
+                placeholder="kuklachev@gmail.com"
+                type="email"
+                tabindex="7"
+                name="useremail"
+                required
+              />
+            </label>
+          </div>
+          <div class="form-data__input">
+            <label class="form-data__text"
+              >Телефон:*
+              <input
+                class="form-data__text-input"
+                placeholder="8 (960) 900-60-90"
+                type="tel"
+                tabindex="8"
+                name="usertel"
+                required
+              />
+            </label>
+          </div>
+        </div>
+        <div class="form-input__form-comment form-comment">
+          <h2 class="form-comment__subtitle">Комментарий</h2>
+          <textarea
+            class="form-comment__text"
+            tabindex="9"
+            placeholder="Расскажите обо всех повАдках кота"
+            name="text"
+          ></textarea>
+        </div>
+        <div class="form-input__form-add form-add">
+          <h2 class="form-add__subtitle">Дополнительно</h2>
+          <div class="form-add__check-list">
+            <label class="form-add__check-text">
+              <input
+                class="form-add__check-item"
+                tabindex="10"
+                checked
+                type="checkbox"
+                name="sugarsubstitute"
+                value="yes"
+              />
+              сахарозаменитель
+            </label>
+          </div>
+          <div class="form-add__check-list">
+            <label class="form-add__check-text">
+              <input
+                class="form-add__check-item"
+                tabindex="11"
+                type="checkbox"
+                name="water"
+                value="yes"
+              />
+              питьевая вода
+            </label>
+          </div>
+          <div class="form-add__check-list">
+            <label class="form-add__check-text">
+              <input
+                class="form-add__check-item"
+                tabindex="12"
+                type="checkbox"
+                name="milk"
+                value="yes"
+              />
+              молоко
+            </label>
+          </div>
+          <div class="form-add__check-list">
+            <label class="form-add__check-text">
+              <input
+                class="form-add__check-item"
+                tabindex="13"
+                type="checkbox"
+                name="vitamins"
+                value="yes"
+              />
+              витамины
+            </label>
+          </div>
+        </div>
+        <button
+          class="form-input__form-button form-button"
+          tabindex="14"
+          type="submit"
+        >
+          отправить заявку
+        </button>
+
+        <p class="form-input__desc-text desc-text">* — Обязательные поля</p>
       </form>
       <div class="main-container__contacts contacts">
         <div class="contacts__container container">

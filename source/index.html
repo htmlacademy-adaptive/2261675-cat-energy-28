@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="page">
-    <header class="page__main-header main-header">
+    <header class="page__main-header main-header header--position">
       <div class="main-header__wrapper container">
-        <a class="main-header__logo" href="#">
+        <a class="main-header__logo" href="index.html">
           <img
             class="main-header__logo-cat"
             src="./img/svg/logo-mobile.svg"
@@ -18,7 +18,7 @@
             alt="Логотип"
           />
         </a>
-        <a class="main-header__logo-html" href="#">
+        <a class="main-header__logo-html" href="index.html">
           <img
             class="main-header__logo-catenergy"
             src="./img/svg/logo_cat_enegy.svg"
@@ -57,35 +57,34 @@
           <h1 class="promo__title">Функциональное питание для котов</h1>
           <p class="promo__slogan">Занялся собой? Займись котом!</p>
         </div>
-        <div class="container">
-          <div class="promo__img">
-            <img
-              class="promo__img-food"
-              src="./img/png/feed-index.png"
-              width="280"
-              height="270"
-              alt="фото корма"
-            />
-          </div>
-          <div class="promo__button-block button-block">
-            <button class="button-block__button" href="#">
-              подобрать программу
-            </button>
-          </div>
+        <div class="promo__img container">
+          <img
+            class="promo__img-food"
+            src="./img/png/feed-index.png"
+            width="280"
+            height="270"
+            alt="фото корма"
+          />
+        </div>
+        <div class="promo__button-block button-block container">
+          <button class="button-block__button" href="#">
+            подобрать программу
+          </button>
         </div>
       </section>
       <section class="main-container__catalog catalog">
         <div class="container">
           <h2 class="visually-hidden">Каталог товаров</h2>
           <div class="catalog__program program">
-            <img
-              class="program__img"
-              src="./img/svg/cat_slim.svg"
-              alt="Logo cat-slim"
-              width="50"
-              height="53"
-            />
-            <p class="program__title">похудение</p>
+            <div class="program__slim">
+              <img
+                src="./img/svg/cat_slim.svg"
+                alt="Logo cat-slim"
+                width="50"
+                height="53"
+              />
+              <p class="program__title">похудение</p>
+            </div>
             <p class="program__text">
               Ваш кот весит больше собаки и почти утратил способность лазить по
               деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу
@@ -94,14 +93,15 @@
             <a class="program__link" href="#">каталог Slim</a>
           </div>
           <div class="catalog__program program">
-            <img
-              class="program__img"
-              src="./img/svg/cat_pro.svg"
-              alt="Logo  cat-pro"
-              width="67"
-              height="50"
-            />
-            <p class="program__title">Набор массы</p>
+            <div class="program__pro">
+              <img
+                src="./img/svg/cat_pro.svg"
+                alt="Logo  cat-pro"
+                width="67"
+                height="50"
+              />
+              <p class="program__title">Набор массы</p>
+            </div>
             <p class="program__text">
               Заработать авторитет среди дворовых котов и даже собак? Серия Cat
               Energy Pro поможет вашему коту нарастить необходимые мышцы!
@@ -117,7 +117,7 @@
             <div class="features__item">
               <img
                 class="features__item-img"
-                src="../img/svg/Group 1.svg"
+                src="./img/svg/special-1.svg"
                 width="60"
                 height="60"
                 alt="лого"
@@ -131,7 +131,7 @@
             <div class="features__item">
               <img
                 class="features__item-img"
-                src="../img/svg/Group 2.svg"
+                src="./img/svg/special-3.svg"
                 width="60"
                 height="60"
                 alt="лого"
@@ -145,7 +145,7 @@
             <div class="features__item">
               <img
                 class="features__item-img"
-                src="../img/svg/Group 3.svg"
+                src="./img/svg/special-4.svg"
                 width="60"
                 height="60"
                 alt="лого"
@@ -159,7 +159,7 @@
             <div class="features__item">
               <img
                 class="features__item-img"
-                src="../img/svg/Group 4.svg"
+                src="./img/svg/special-4.svg"
                 width="60"
                 height="60"
                 alt="лого"

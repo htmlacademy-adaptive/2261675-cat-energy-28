@@ -1,5 +1,11 @@
-.main-header {
-  background-color: #ffffff;
+@media (min-width: $destop-width) {
+  .header--position {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
 }
 
 .main-header__wrapper {

@@ -6,7 +6,8 @@
 .input-name__text {
   display: flex;
   align-items: center;
-  column-gap: 14px;
+  justify-content: space-around;
+  column-gap: 13px;
   padding-bottom: 14px;
   font-size: 16px;
   text-transform: uppercase;
