@@ -1,0 +1,31 @@
+.catalog-item__title {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #111111;
+  max-width: 76px;
+  padding-bottom: 18px;
+}
+
+.catalog-item__text {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #444444;
+}
+
+.catalog-item__catalog-button {
+  margin-top: 22px;
+  margin-bottom: 25px;
+}
+
+.catalog-item__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-item__info-item {
+  display: flex;
+  justify-content: space-between;
+}

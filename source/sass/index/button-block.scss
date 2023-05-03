@@ -1,0 +1,16 @@
+.button-block {
+  &__button {
+    display: inline-flex;
+    justify-content: center;
+    padding: 7px 44px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: $base-color;
+    min-width: 280px;
+  }
+}

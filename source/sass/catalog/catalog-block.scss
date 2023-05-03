@@ -1,0 +1,13 @@
+.catalog-block {
+  padding-top: 19px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.catalog-block__catalog-item {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-template-rows: 112px;
+  border-bottom: 1px solid #ebebeb;
+  padding-top: 25px;
+}

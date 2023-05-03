@@ -1,1 +1,58 @@
-// Начните писать стили здесь
+// миксины и переменные
+@import "./basis/mixins.scss";
+@import "./basis/variables.scss";
+
+// базовые стили шрифта
+@import "./basis/font.scss";
+
+// глобальные стили
+@import "./global/reset.scss";
+@import "./global/page.scss";
+@import "./global/global.scss";
+
+// стили хедера
+@import "./header/main-header.scss";
+@import "./header/main-nav.scss";
+
+// стили футера
+@import "./contacts/contacts.scss";
+@import "./contacts/location.scss";
+@import "./footer/copyright.scss";
+@import "./footer/footer-item.scss";
+@import "./footer/main-footer.scss";
+@import "./footer/social.scss";
+
+// стили index
+@import "./index/advantages.scss";
+@import "./index/button-block.scss";
+@import "./index/catalog.scss";
+@import "./index/example.scss";
+@import "./index/features.scss";
+@import "./index/main-container.scss";
+@import "./index/program.scss";
+@import "./index/promo.scss";
+@import "./index/slider.scss";
+@import "./index/stats.scss";
+
+// стили block
+@import "./form/desc-text.scss";
+@import "./form/form-add.scss";
+@import "./form/form-button.scss";
+@import "./form/form-comment.scss";
+@import "./form/form-header.scss";
+@import "./form/form-input.scss";
+@import "./form/form-date.scss";
+@import "./form/input-name.scss";
+@import "./form/main-form.scss";
+@import "./form/radio.scss";
+
+// стили block
+@import "./catalog/catalog-block.scss";
+@import "./catalog/catalog-button.scss";
+@import "./catalog/catalog-item.scss";
+@import "./catalog/catalog-title.scss";
+@import "./catalog/gitf-block.scss";
+@import "./catalog/main-catalog.scss";
+@import "./catalog/more-list.scss";
+@import "./catalog/product-more.scss";
+@import "./catalog/item-all.scss";

@@ -1,0 +1,17 @@
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin destop {
+  @media (min-width: $destop-width) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}

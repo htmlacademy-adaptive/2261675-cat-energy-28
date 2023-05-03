@@ -1,0 +1,20 @@
+.features {
+  @include list-reset;
+  display: grid;
+  gap: 20px;
+}
+
+.features__item {
+  display: grid;
+  grid-template-columns: 60px auto;
+  gap: 20px;
+}
+
+.features__item-text {
+  font-family: "Lato", "Arial", sans-serif;
+  color: #444444;
+}
+
+.features__number {
+  display: none;
+}
