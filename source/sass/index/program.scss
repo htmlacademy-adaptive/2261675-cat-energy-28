@@ -1,6 +1,10 @@
 .program {
   background-color: $green-color;
   margin-bottom: 20px;
+
+  @include tablet {
+    margin-bottom: 30px;
+  }
 }
 
 .program__title {
@@ -8,6 +12,18 @@
   line-height: 37px;
   text-transform: uppercase;
   color: #000000;
+
+  @include tablet {
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+  }
+
+  @include destop {
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+  }
 }
 
 .program__text {
@@ -15,6 +31,20 @@
   font-family: "Lato", sans-serif;
   color: #444444;
   border-bottom: 1px solid #d9d9d9;
+
+  @include tablet {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    border: none;
+  }
+
+  @include destop {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    border: none;
+  }
 }
 
 .program__link {
@@ -24,6 +54,11 @@
   line-height: 16px;
   text-transform: uppercase;
   color: #000000;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .program__slim {
