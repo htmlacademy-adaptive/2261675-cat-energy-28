@@ -6,15 +6,38 @@
     align-items: center;
     column-gap: 2px;
     padding: 26px 20px 26px 20px;
+
+    @include tablet {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @include destop {
+      min-width: 565px;
+      padding: 56px 60px 56px 80px;
+      display: flex;
+      justify-content: normal;
+      column-gap: 87px;
+    }
   }
 
   &__info-title {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase;
     color: #111111;
+
+    @include tablet {
+      font-size: 20px;
+      line-height: 26px;
+      padding-left: 40px;
+      max-width: 171px;
+    }
+
+    @include destop {
+      font-size: 20px;
+      line-height: 26px;
+    }
   }
 
   &__info-text {
@@ -24,5 +47,17 @@
     font-size: 14px;
     line-height: 20px;
     color: #444444;
+
+    @include tablet {
+      font-size: 16px;
+      line-height: 20px;
+      padding-right: 40px;
+      max-width: 160px;
+    }
+
+    @include destop {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 }
