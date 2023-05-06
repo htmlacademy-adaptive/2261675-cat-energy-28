@@ -4,6 +4,16 @@
   color: #000000;
   margin-top: 26px;
   margin-bottom: 35px;
+
+  @include tablet {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  @include destop {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .form-data__text-input {
@@ -14,6 +24,16 @@
   border: 1px solid #cdcdcd;
   padding: 14px 17px 15px 14px;
   min-width: 202px;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @include destop {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .form-data__text {
@@ -26,6 +46,16 @@
   display: flex;
   align-items: center;
   gap: 10px;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @include destop {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .form-data__input:not(:last-child) {

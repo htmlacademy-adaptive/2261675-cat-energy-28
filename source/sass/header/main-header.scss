@@ -14,4 +14,12 @@
   align-items: center;
   padding-top: 10px;
   padding-bottom: 18px;
+
+  @include tablet {
+    padding-bottom: 0;
+  }
+
+  @include destop {
+    padding-bottom: 0;
+  }
 }

@@ -7,6 +7,16 @@
   line-height: 26px;
   color: #000000;
   margin-bottom: 34px;
+
+  @include tablet {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  @include destop {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .form-add__check-text {
@@ -18,6 +28,16 @@
   color: #000000;
   gap: 16px;
   margin-bottom: 13px;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  @include destop {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .form-add__check-list {

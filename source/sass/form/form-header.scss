@@ -4,6 +4,21 @@
   color: #000000;
   padding: 27px 0 37px 20px;
   border-top: 1px solid #d9d9d9;
+
+  @include tablet {
+    font-size: 60px;
+    line-height: 60px;
+    padding: 65px 0 55px 70px;
+    border: none;
+  }
+
+  @include destop {
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 74px;
+    padding-bottom: 56px;
+    border: none;
+  }
 }
 
 .form-header__text {
@@ -11,4 +26,19 @@
   color: #000000;
   padding-bottom: 27px;
   padding-left: 20px;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 70px;
+    padding-bottom: 65px;
+    border: none;
+  }
+
+  @include destop {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 65px;
+    border: none;
+  }
 }
