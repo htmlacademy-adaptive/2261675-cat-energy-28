@@ -8,10 +8,21 @@
   padding-bottom: 32px;
 
   @include tablet {
+    padding: 0;
     font-size: 16px;
   }
 
   @include destop {
     font-size: 16px;
+  }
+}
+
+.form-input__send {
+  @include tablet {
+    display: flex;
+    column-gap: 65px;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 72px;
   }
 }
