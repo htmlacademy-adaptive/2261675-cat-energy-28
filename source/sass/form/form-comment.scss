@@ -8,6 +8,8 @@
   @include tablet {
     font-size: 36px;
     line-height: 36px;
+    margin-top: 65px;
+    margin-bottom: 75px;
   }
 
   @include destop {
@@ -27,6 +29,8 @@
     font-family: inherit;
     font-size: 20px;
     line-height: 30px;
+    width: 631px;
+    height: 174px;
   }
 
   @include destop {

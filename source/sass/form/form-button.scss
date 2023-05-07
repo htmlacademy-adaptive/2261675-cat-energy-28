@@ -2,6 +2,7 @@
   display: inline-flex;
   justify-content: center;
   padding: 7px 44px;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -13,4 +14,11 @@
   min-width: 280px;
   margin-bottom: 21px;
   margin-top: 20px;
+
+  @include tablet {
+    font-size: 20px;
+    padding: 13px 45px;
+    margin-top: 55px;
+    margin-bottom: 72px;
+  }
 }
