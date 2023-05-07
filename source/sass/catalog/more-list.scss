@@ -1,3 +1,7 @@
+.more-list {
+  border: 1px solid #cdcdcd;
+}
+
 .more-list__catalog-button {
   margin-bottom: 19px;
 }
@@ -7,6 +11,16 @@
   line-height: 14px;
   color: #444444;
   padding-bottom: 15px;
+
+  @include tablet {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @include destop {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 .more-list__text-title {
@@ -17,9 +31,23 @@
   padding-top: 13px;
   padding-bottom: 13px;
   border-top: 1px solid #cdcdcd;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @include destop {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .more-list__text-item {
   display: flex;
   justify-content: space-between;
+
+  @include tablet {
+    justify-content: flex-end;
+  }
 }

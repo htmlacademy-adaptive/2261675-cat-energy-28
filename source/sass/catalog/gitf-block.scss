@@ -12,4 +12,8 @@
   max-width: 161px;
   display: inline-block;
   padding-top: 48px;
+
+  @include tablet {
+    padding: 0;
+  }
 }

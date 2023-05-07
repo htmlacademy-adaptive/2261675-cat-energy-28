@@ -12,4 +12,15 @@
   color: #ffffff;
   background-color: $base-color;
   min-width: 280px;
+
+  @include tablet {
+    min-width: 630px;
+    margin-left: 38px;
+    margin-right: 38px;
+  }
+
+  @include destop {
+    min-width: 245px;
+    margin: 0;
+  }
 }
