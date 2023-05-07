@@ -2,6 +2,22 @@
   padding-top: 19px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ebebeb;
+
+  @include tablet {
+    display: grid;
+    grid-template-columns: 320px 320px;
+    gap: 60px;
+    min-height: 510px;
+    border: none;
+  }
+
+  @include destop {
+    display: grid;
+    grid-template-columns: repeat(4, 245px);
+    column-gap: 80px;
+    row-gap: 63px;
+    border: none;
+  }
 }
 
 .catalog-block__catalog-item {
@@ -10,4 +26,12 @@
   grid-template-rows: 112px;
   border-bottom: 1px solid #ebebeb;
   padding-top: 25px;
+
+  @include tablet {
+    border: none;
+  }
+
+  @include destop {
+    border: none;
+  }
 }

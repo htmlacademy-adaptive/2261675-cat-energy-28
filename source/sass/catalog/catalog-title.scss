@@ -6,4 +6,20 @@
   border-bottom: 1px solid #ebebeb;
   padding-top: 27px;
   padding-bottom: 41px;
+
+  @include tablet {
+    border: none;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 65px;
+    padding-bottom: 82px;
+  }
+
+  @include destop {
+    border: none;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 75px;
+    padding-bottom: 85px;
+  }
 }
