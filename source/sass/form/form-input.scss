@@ -26,3 +26,17 @@
     margin-bottom: 72px;
   }
 }
+
+.form-input__form-data {
+  @include destop {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.form-input__form-add {
+  @include destop {
+    display: flex;
+    justify-content: space-between;
+  }
+}

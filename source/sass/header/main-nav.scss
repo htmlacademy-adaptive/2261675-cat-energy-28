@@ -37,7 +37,9 @@
 }
 
 .main-nav__menu-item--color a {
-  color: #ffffff;
+  @include destop {
+    color: #ffffff;
+  }
 }
 
 .main-nav__toggle {

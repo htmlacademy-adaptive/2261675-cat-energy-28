@@ -29,12 +29,14 @@
     font-family: inherit;
     font-size: 20px;
     line-height: 30px;
-    width: 631px;
-    height: 174px;
+    min-width: 630px;
+    min-height: 175px;
   }
 
   @include destop {
     font-size: 20px;
     line-height: 30px;
+    min-width: 1220px;
+    min-height: 175px;
   }
 }

@@ -39,6 +39,7 @@
     line-height: 60px;
     color: #000000;
     text-align: left;
+    grid-column: 2 / 5 span;
   }
 
   @include destop {

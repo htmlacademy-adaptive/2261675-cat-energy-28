@@ -15,6 +15,7 @@
   @include destop {
     font-size: 60px;
     line-height: 60px;
+    padding: 75px 0 55px 110px;
     padding-top: 74px;
     padding-bottom: 56px;
     border: none;
@@ -38,6 +39,7 @@
   @include destop {
     font-size: 20px;
     line-height: 30px;
+    padding-left: 110px;
     padding-bottom: 65px;
     border: none;
   }
