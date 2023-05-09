@@ -9,12 +9,15 @@
 .more-list__item {
   @include destop {
     grid-column: 9 span;
-    border: 1px solid #cdcdcd;
   }
 }
 
 .more-list__catalog-button {
   margin-bottom: 19px;
+
+  @include destop {
+    min-width: 245px;
+  }
 }
 
 .more-list__text {

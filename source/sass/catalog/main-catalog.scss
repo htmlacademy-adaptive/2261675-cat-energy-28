@@ -18,12 +18,17 @@
 
   @include destop {
     width: 245px;
-    float: right;
   }
 }
 
 .more-list__catalog-button {
   @include tablet {
     min-width: 630px;
+  }
+}
+
+.main-catalog__product-more {
+  @include destop {
+    display: flex;
   }
 }

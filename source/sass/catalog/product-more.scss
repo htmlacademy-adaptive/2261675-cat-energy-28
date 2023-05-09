@@ -1,4 +1,4 @@
-.product-more__title {
+.main-catalog__catalog-subtittle {
   font-size: 24px;
   line-height: 24px;
   color: #000000;
@@ -22,8 +22,7 @@
 
 .product-more__more-list {
   @include destop {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    column-gap: 20px;
+    min-width: 895px;
+    padding-right: 80px;
   }
 }
