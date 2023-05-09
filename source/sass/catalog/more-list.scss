@@ -1,5 +1,16 @@
 .more-list {
   border: 1px solid #cdcdcd;
+
+  @include destop {
+    border: none;
+  }
+}
+
+.more-list__item {
+  @include destop {
+    grid-column: 9 span;
+    border: 1px solid #cdcdcd;
+  }
 }
 
 .more-list__catalog-button {

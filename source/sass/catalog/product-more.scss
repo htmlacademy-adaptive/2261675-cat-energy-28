@@ -19,3 +19,11 @@
     margin-bottom: 80px;
   }
 }
+
+.product-more__more-list {
+  @include destop {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+  }
+}
