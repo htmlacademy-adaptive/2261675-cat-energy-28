@@ -1,3 +1,19 @@
+.div {
+  @include destop {
+    display: flex;
+    padding: 0 110px;
+    justify-content: space-between;
+    column-gap: 80px;
+  }
+}
+
+.form-input__name {
+  @include destop {
+    min-width: 570px;
+    padding: 0;
+  }
+}
+
 .form-input__desc-text {
   font-family: "Lato", sans-serif;
   line-height: 16px;
@@ -9,10 +25,6 @@
 
   @include tablet {
     padding: 0;
-    font-size: 16px;
-  }
-
-  @include destop {
     font-size: 16px;
   }
 }
@@ -43,4 +55,8 @@
 
 .form-input__radio {
   margin: 0 70px;
+
+  @include destop {
+    margin: 0;
+  }
 }
