@@ -44,13 +44,9 @@
   border: 1px solid #e7e7e7;
   padding: 14px 0 13px 20px;
   min-width: 173px;
+  flex-grow: 1;
 
   @include tablet {
-    font-size: 20px;
-    line-height: 30px;
-  }
-
-  @include destop {
     font-size: 20px;
     line-height: 30px;
   }
