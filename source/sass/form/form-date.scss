@@ -30,11 +30,11 @@
   @include tablet {
     font-size: 20px;
     line-height: 30px;
+    flex-grow: 1;
   }
 
   @include destop {
-    font-size: 20px;
-    line-height: 30px;
+    min-width: 470px;
   }
 }
 
@@ -65,5 +65,9 @@
 
   @include tablet {
     padding-bottom: 20px;
+  }
+
+  @include destop {
+    padding-bottom: 0;
   }
 }
