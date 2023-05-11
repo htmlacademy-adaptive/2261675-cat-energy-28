@@ -16,13 +16,6 @@
   @include tablet {
     font-size: 36px;
     line-height: 36px;
-    color: #000000;
-  }
-
-  @include destop {
-    font-size: 36px;
-    line-height: 36px;
-    color: #000000;
   }
 }
 
@@ -33,13 +26,6 @@
   border-bottom: 1px solid #d9d9d9;
 
   @include tablet {
-    font-size: 16px;
-    line-height: 24px;
-    color: #000000;
-    border: none;
-  }
-
-  @include destop {
     font-size: 16px;
     line-height: 24px;
     color: #000000;

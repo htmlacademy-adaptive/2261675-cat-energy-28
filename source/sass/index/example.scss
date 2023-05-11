@@ -15,11 +15,6 @@
     line-height: 60px;
     padding-bottom: 63px;
   }
-
-  @include destop {
-    font-size: 60px;
-    line-height: 60px;
-  }
 }
 
 .example__text {
@@ -35,8 +30,6 @@
   }
 
   @include destop {
-    font-size: 16px;
-    line-height: 24px;
     max-width: 436px;
     padding-bottom: 69px;
   }
