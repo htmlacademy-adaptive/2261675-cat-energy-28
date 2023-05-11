@@ -1,6 +1,10 @@
 .example {
   background-color: $green-color;
   padding-bottom: 40px;
+
+  @include tablet {
+    background-color: $white-color;
+  }
 }
 
 .example__title {
@@ -13,7 +17,11 @@
   @include tablet {
     font-size: 60px;
     line-height: 60px;
-    padding-bottom: 63px;
+    padding-bottom: 65px;
+  }
+
+  @include destop {
+    padding-bottom: 75px;
   }
 }
 

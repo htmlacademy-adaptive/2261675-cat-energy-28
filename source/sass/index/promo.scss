@@ -3,7 +3,7 @@
 }
 
 .promo__wrapper {
-  background: #ffffff url("../../img/jpg/cat-index.jpg") no-repeat center /
+  background: $white-color url("../../img/jpg/cat-index.jpg") no-repeat center /
     cover;
   min-height: 302px;
 
@@ -28,7 +28,7 @@
   padding-bottom: 25px;
   font-size: 36px;
   line-height: 36px;
-  color: #ffffff;
+  color: $white-color;
   text-align: center;
 
   @include tablet {
@@ -52,7 +52,7 @@
   padding-bottom: 29px;
   line-height: 14px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $white-color;
   text-align: center;
 
   @include tablet {
