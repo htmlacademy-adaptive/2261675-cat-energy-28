@@ -4,14 +4,12 @@
   gap: 20px;
 
   @include tablet {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 37px;
   }
 
   @include destop {
-    display: flex;
-    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -21,8 +19,6 @@
   gap: 20px;
 
   @include tablet {
-    display: flex;
-    flex-direction: column;
     row-gap: 31px;
     min-height: 280px;
   }
@@ -31,16 +27,14 @@
 .features__item-text {
   font-family: "Lato", sans-serif;
   color: #444444;
+  font-size: 14px;
+  line-height: 18px;
 
   @include tablet {
     font-size: 16px;
     line-height: 24px;
     max-width: 245px;
-  }
-
-  @include destop {
-    font-size: 16px;
-    line-height: 24px;
+    grid-column: 1/ -1;
   }
 }
 
