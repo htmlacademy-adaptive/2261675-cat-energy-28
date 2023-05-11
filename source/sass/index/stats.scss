@@ -7,6 +7,14 @@
   @include tablet {
     justify-content: flex-start;
     column-gap: 42px;
+    width: 366px;
+    float: left;
+  }
+
+  @include destop {
+    justify-content: space-around;
+    float: none;
+    padding-bottom: 45px;
   }
 }
 
@@ -35,14 +43,24 @@
 }
 
 .stats__price {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
-  text-align: center;
   color: #000000;
   padding-bottom: 20px;
 
   @include tablet {
     font-size: 20px;
-    line-height: 20px;
+    align-items: end;
+    flex-direction: column;
+  }
+
+  @include destop {
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 65px;
   }
 }

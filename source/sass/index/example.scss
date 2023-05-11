@@ -5,6 +5,10 @@
   @include tablet {
     background-color: $white-color;
   }
+
+  @include destop {
+    background-color: $green-color;
+  }
 }
 
 .example__title {
