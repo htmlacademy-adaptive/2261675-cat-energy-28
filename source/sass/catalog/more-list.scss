@@ -30,11 +30,6 @@
     font-size: 16px;
     line-height: 20px;
   }
-
-  @include destop {
-    font-size: 16px;
-    line-height: 20px;
-  }
 }
 
 .more-list__text-title {
@@ -47,11 +42,6 @@
   border-top: 1px solid #cdcdcd;
 
   @include tablet {
-    font-size: 20px;
-    line-height: 20px;
-  }
-
-  @include destop {
     font-size: 20px;
     line-height: 20px;
   }

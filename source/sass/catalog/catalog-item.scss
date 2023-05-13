@@ -14,7 +14,6 @@
   }
 
   @include destop {
-    font-size: 20px;
     line-height: 21px;
     color: #222222;
   }
@@ -28,12 +27,6 @@
 
   @include tablet {
     font-size: 16px;
-    line-height: 16px;
-  }
-
-  @include destop {
-    font-size: 16px;
-    line-height: 16px;
   }
 }
 

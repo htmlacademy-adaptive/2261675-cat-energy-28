@@ -27,8 +27,6 @@
   }
 
   @media (min-width: $destop-width) {
-    display: flex;
-    justify-content: flex-end;
     gap: 33px;
     padding-top: 70px;
   }
@@ -40,13 +38,13 @@
 
 .main-nav__menu-item--color a {
   @include destop {
-    color: #ffffff;
+    color: $white-color;
   }
 }
 
 .main-nav__toggle {
   border: none;
-  background-color: #ffffff;
+  background-color: $white-color;
 
   @media (min-width: $tablet-width) {
     display: none;
