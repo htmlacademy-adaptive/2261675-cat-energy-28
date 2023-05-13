@@ -1,0 +1,5 @@
+.slider {
+  @include tablet {
+    background-color: $green-color;
+  }
+}

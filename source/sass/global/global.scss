@@ -18,13 +18,21 @@
 
   @media (min-width: $tablet-width) {
     min-width: 710px;
-    padding: 0 70px;
+    padding: 0 30px;
     margin: 0 auto;
   }
 
   @media (min-width: $destop-width) {
     min-width: 1220px;
     padding: 0 110px;
+    margin: 0 auto;
+  }
+}
+
+.container-form {
+  @include tablet {
+    min-width: 710px;
+    padding: 0 70px;
     margin: 0 auto;
   }
 }
