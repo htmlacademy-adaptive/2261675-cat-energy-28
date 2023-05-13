@@ -15,7 +15,6 @@
 
   @include destop {
     line-height: 21px;
-    color: #222222;
   }
 }
 
@@ -50,6 +49,5 @@
 }
 
 .catalog-item__info-item {
-  display: flex;
   justify-content: space-between;
 }
