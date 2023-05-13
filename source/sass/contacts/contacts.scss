@@ -1,5 +1,13 @@
-.contacts {
+.contacts__container-white {
   background-color: $white-color;
+}
+
+.contacts__container-green {
+  background-color: $green-color;
+
+  @include destop {
+    background-color: $white-color;
+  }
 }
 
 .contacts__container {
