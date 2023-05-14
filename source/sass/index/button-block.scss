@@ -1,16 +1,22 @@
-.button-block {
-  &__button {
-    display: inline-flex;
-    justify-content: center;
-    padding: 7px 44px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    color: $white-color;
-    background-color: $base-color;
-    min-width: 280px;
+.button-block__button {
+  display: inline-flex;
+  justify-content: center;
+  padding: 7px 44px;
+  font-family: "Oswaldregular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-color;
+  background-color: $base-color;
+  min-width: 280px;
+
+  @include tablet {
+    padding: 15px 25px;
+    font-size: 20px;
+    line-height: 20px;
+    min-width: 245px;
   }
 }
