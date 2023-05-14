@@ -3,17 +3,18 @@
 }
 
 .promo__wrapper {
+  display: flex;
+  flex-direction: column;
   background: $white-color url("../../img/jpg/cat-index.jpg") no-repeat center /
     cover;
   min-height: 302px;
 
   @include tablet {
     background-image: none;
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding-left: 120px;
     gap: 40px;
+    min-height: auto;
   }
 
   @include destop {
@@ -32,8 +33,8 @@
   text-align: center;
 
   @include tablet {
-    padding-top: 42px;
-    padding-bottom: 15px;
+    padding-top: 60px;
+    padding-bottom: 0;
     font-size: 60px;
     line-height: 60px;
     color: #000000;
@@ -43,8 +44,7 @@
 
   @include destop {
     padding: 0;
-    margin-top: 110px;
-    margin-bottom: 40px;
+    margin-top: 225px;
   }
 }
 
@@ -58,12 +58,16 @@
   @include tablet {
     font-size: 20px;
     line-height: 20px;
-    text-transform: uppercase;
     color: #000000;
+    padding-bottom: 0;
   }
 }
 
 .promo__img {
   padding-bottom: 3px;
   margin-top: -134px;
+
+  @include tablet {
+    margin: 0;
+  }
 }
