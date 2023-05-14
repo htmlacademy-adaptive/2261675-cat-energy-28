@@ -36,11 +36,11 @@
   color: $dark-color;
 }
 
-.main-nav__menu-item--color a {
-  @include destop {
-    color: $white-color;
-  }
-}
+// // .main-nav__menu-item--color a {
+// //   @include destop {
+// //     color: $white-color;
+// //   }
+// }
 
 .main-nav__toggle {
   border: none;

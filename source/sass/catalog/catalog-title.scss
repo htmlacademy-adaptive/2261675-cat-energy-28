@@ -11,12 +11,13 @@
     border: none;
     font-size: 60px;
     line-height: 60px;
-    padding-top: 65px;
-    padding-bottom: 82px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 65px;
+    margin-bottom: 85px;
   }
 
   @include destop {
-    padding-top: 75px;
-    padding-bottom: 85px;
+    margin-top: 188px;
   }
 }

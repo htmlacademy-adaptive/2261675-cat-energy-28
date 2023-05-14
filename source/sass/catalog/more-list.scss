@@ -1,5 +1,7 @@
 .more-list {
-  border: 1px solid #cdcdcd;
+  @include tablet {
+    border: 1px solid #cdcdcd;
+  }
 
   @include destop {
     border: none;
