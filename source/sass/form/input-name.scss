@@ -30,6 +30,10 @@
   }
 
   @include destop {
+    &:last-child {
+      padding-bottom: 0;
+    }
+
     width: 570px;
   }
 }

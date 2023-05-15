@@ -7,6 +7,21 @@
   @media (min-width: $tablet-width) {
     font-size: 18px;
     line-height: 24px;
+    height: 35px;
+
+    &--active {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        background: $base-color;
+      }
+    }
   }
 
   @media (min-width: $destop-width) {
@@ -35,12 +50,6 @@
 .main-nav__menu-item a {
   color: $dark-color;
 }
-
-// // .main-nav__menu-item--color a {
-// //   @include destop {
-// //     color: $white-color;
-// //   }
-// }
 
 .main-nav__toggle {
   border: none;
