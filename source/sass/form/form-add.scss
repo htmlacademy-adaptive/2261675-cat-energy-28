@@ -4,7 +4,7 @@
   row-gap: 12px;
 
   @include tablet {
-    padding-bottom: 21px;
+    padding: 0 70px 20px 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;
@@ -26,6 +26,7 @@
     line-height: 36px;
     margin-top: 65px;
     margin-bottom: 55px;
+    padding: 0 70px;
   }
 }
 

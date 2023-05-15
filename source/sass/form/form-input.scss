@@ -36,10 +36,15 @@
     align-items: center;
     margin-top: 55px;
     margin-bottom: 72px;
+    padding: 0 70px;
   }
 }
 
 .form-input__form-data {
+  @include tablet {
+    padding: 0 70px;
+  }
+
   @include destop {
     display: flex;
     justify-content: space-between;
