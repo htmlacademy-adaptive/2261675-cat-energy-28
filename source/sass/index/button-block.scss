@@ -19,4 +19,10 @@
     line-height: 20px;
     min-width: 245px;
   }
+
+  @include destop {
+    position: absolute;
+    top: 455px;
+    left: 190px;
+  }
 }
