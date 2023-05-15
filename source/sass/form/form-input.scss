@@ -46,15 +46,10 @@
   }
 }
 
-.form-input__form-add {
-  @include destop {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
 .form-input__radio {
-  margin: 0 70px;
+  @include tablet {
+    margin: 0 70px;
+  }
 
   @include destop {
     margin: 0;

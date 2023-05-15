@@ -1,4 +1,6 @@
 .main-container__promo {
+  margin-bottom: 20px;
+
   @include destop {
     position: relative;
     margin-bottom: 80px;

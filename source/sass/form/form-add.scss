@@ -1,8 +1,18 @@
 .form-add {
-  padding-bottom: 21px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 30px;
+  grid-template-columns: 1fr;
+  row-gap: 12px;
+
+  @include tablet {
+    padding-bottom: 21px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
+
+  @include destop {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .form-add__subtitle {

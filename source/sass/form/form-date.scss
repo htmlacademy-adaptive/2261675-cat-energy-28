@@ -21,11 +21,11 @@
   border: 1px solid #cdcdcd;
   padding: 14px 17px 15px 14px;
   min-width: 202px;
+  flex-grow: 1;
 
   @include tablet {
     font-size: 20px;
     line-height: 30px;
-    flex-grow: 1;
   }
 
   @include destop {

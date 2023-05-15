@@ -20,4 +20,8 @@
     padding: 13px 45px;
     margin: 0;
   }
+
+  @include destop {
+    min-width: 568px;
+  }
 }

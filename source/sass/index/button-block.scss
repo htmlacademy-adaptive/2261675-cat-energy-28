@@ -18,10 +18,12 @@
     font-size: 20px;
     line-height: 20px;
     min-width: 245px;
+    position: absolute;
+    top: 340px;
+    left: 120px;
   }
 
   @include destop {
-    position: absolute;
     top: 455px;
     left: 190px;
   }

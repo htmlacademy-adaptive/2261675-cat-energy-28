@@ -7,26 +7,28 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="page">
-    <header class="page__main-header main-header">
+    <header class="page__main-header main-header header--position">
       <div class="main-header__wrapper container">
-        <a class="main-header__logo" href="index.html">
-          <img
-            class="main-header__logo-cat"
-            src="./img/svg/logo-mobile.svg"
-            width="33"
-            height="38"
-            alt="Логотип"
-          />
-        </a>
-        <a class="main-header__logo-html" href="index.html">
-          <img
-            class="main-header__logo-catenergy"
-            src="./img/svg/logo_cat_enegy.svg"
-            width="101"
-            height="18"
-            alt="Логотип"
-          />
-        </a>
+        <div class="main-header__logo">
+          <a class="main-header__logo-link" href="index.html">
+            <img
+              class="main-header__logo-cat"
+              src="./img/svg/logo-mobile.svg"
+              width="33"
+              height="38"
+              alt="Логотип"
+            />
+          </a>
+          <a class="main-header__logo-html" href="index.html">
+            <img
+              class="main-header__logo-catenergy"
+              src="./img/svg/logo_cat_enegy.svg"
+              width="101"
+              height="18"
+              alt="Логотип"
+            />
+          </a>
+        </div>
         <nav class="main-header__main-nav main-nav">
           <button class="main-nav__toggle">
             <img
@@ -38,13 +40,15 @@
             <span class="visually-hidden">Открыть меню</span>
           </button>
           <ul class="main-nav__menu">
-            <li class="main-nav__menu-item main-nav__menu-item--active">
+            <li
+              class="main-nav__menu-item main-nav__menu-item--active main-nav__menu-item--color"
+            >
               <a href="index.html">главная</a>
             </li>
-            <li class="main-nav__menu-item">
+            <li class="main-nav__menu-item main-nav__menu-item--color">
               <a href="catalog.html">каталог продукции</a>
             </li>
-            <li class="main-nav__menu-item">
+            <li class="main-nav__menu-item main-nav__menu-item--color">
               <a href="form.html">подбор программы</a>
             </li>
           </ul>
@@ -101,7 +105,7 @@
               </label>
             </div>
           </div>
-          <div class="form-input__radio radio">
+          <div class="form-input__radio radio container">
             <div class="radio__list">
               <label class="radio__text">
                 <input
@@ -138,10 +142,10 @@
             </div>
           </div>
         </div>
-        <h2 class="form-data__subtitle container-form">
+        <h2 class="form-data__subtitle container-form container">
           Контактные данные (владельца кота)
         </h2>
-        <div class="form-input__form-data form-data container-form">
+        <div class="form-input__form-data form-data container-form container">
           <div class="form-data__input">
             <label class="form-data__text"
               >E-mail:*
@@ -169,7 +173,9 @@
             </label>
           </div>
         </div>
-        <div class="form-input__form-comment form-comment container-form">
+        <div
+          class="form-input__form-comment form-comment container-form container"
+        >
           <h2 class="form-comment__subtitle">Комментарий</h2>
           <textarea
             class="form-comment__text"
@@ -178,8 +184,10 @@
             name="text"
           ></textarea>
         </div>
-        <h2 class="form-add__subtitle container-form">Дополнительно</h2>
-        <div class="form-input__form-add form-add container-form">
+        <h2 class="form-add__subtitle container-form container">
+          Дополнительно
+        </h2>
+        <div class="form-input__form-add form-add container-form container">
           <div class="form-add__check-list">
             <label class="form-add__check-text">
               <input
@@ -230,7 +238,7 @@
             </label>
           </div>
         </div>
-        <div class="form-input__send container-form">
+        <div class="form-input__send container-form container">
           <button
             class="form-input__form-button form-button"
             tabindex="14"
