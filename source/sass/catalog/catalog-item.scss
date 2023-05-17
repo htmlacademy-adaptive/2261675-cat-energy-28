@@ -32,6 +32,7 @@
 .catalog-item__catalog-button {
   margin-top: 22px;
   margin-bottom: 25px;
+  grid-column: 1/-1;
 
   @include destop {
     margin-top: 32px;
