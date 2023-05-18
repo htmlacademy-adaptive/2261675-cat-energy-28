@@ -15,7 +15,7 @@
 
   @include destop {
     min-height: 700px;
-    background: $white-color url("../../img/jpg/cat-index.jpg") no-repeat right;
+    background-position: right;
     padding-left: 190px;
     background-size: contain;
   }
