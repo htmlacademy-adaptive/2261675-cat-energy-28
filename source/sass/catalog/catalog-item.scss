@@ -1,6 +1,11 @@
+.catalog-item__table-head {
+  text-align: center;
+}
+
 .catalog-item__title {
   font-size: 16px;
   line-height: 20px;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: left;
   color: #111111;
@@ -11,6 +16,10 @@
     font-size: 20px;
     line-height: 24px;
     color: #222222;
+    font-weight: 400;
+    text-align: center;
+    min-width: 149px;
+    display: inline-block;
   }
 
   @include destop {
@@ -56,4 +65,9 @@
 .catalog-item__info-item {
   display: flex;
   justify-content: space-between;
+
+  @include tablet {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }

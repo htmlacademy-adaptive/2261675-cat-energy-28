@@ -1,6 +1,8 @@
 .example {
   background-color: $green-color;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
 
   @include tablet {
     background-color: $white-color;
@@ -8,6 +10,19 @@
 
   @include destop {
     background-color: $green-color;
+    flex-direction: row;
+  }
+}
+
+.example__wrapper {
+  padding: 0 20px;
+
+  @include tablet {
+    padding: 0 30px;
+  }
+
+  @include destop {
+    padding: 70px 225px 0 110px;
   }
 }
 
@@ -17,11 +32,13 @@
   color: #000000;
   padding-top: 25px;
   padding-bottom: 40px;
+  background-color: $green-color;
 
   @include tablet {
     font-size: 60px;
     line-height: 60px;
     padding-bottom: 65px;
+    background-color: $white-color;
   }
 
   @include destop {

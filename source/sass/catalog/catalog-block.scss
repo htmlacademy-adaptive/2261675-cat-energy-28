@@ -2,13 +2,10 @@
   padding-top: 19px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ebebeb;
-  // display: grid;
-  // grid-template-columns: repeat(1, 1fr);
 
   @include tablet {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(325px, 325px));
-    // grid-template-columns: 325px 325px;
     justify-content: space-between;
     gap: 60px;
     min-height: 510px;
@@ -32,12 +29,17 @@
   padding-top: 25px;
 
   @include tablet {
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
+    grid-template-columns: 1fr;
     align-items: center;
     min-width: 325px;
     padding: 0;
     border: none;
     background-color: #f2f2f2;
+  }
+
+  @include destop {
+    min-width: 245px;
   }
 }
