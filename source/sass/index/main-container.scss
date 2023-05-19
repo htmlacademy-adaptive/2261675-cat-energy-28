@@ -6,3 +6,9 @@
     margin-bottom: 80px;
   }
 }
+
+.main-container__contacts {
+  @include destop {
+    position: relative;
+  }
+}

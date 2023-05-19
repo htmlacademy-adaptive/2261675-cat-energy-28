@@ -11,7 +11,7 @@
   text-transform: uppercase;
   color: $white-color;
   background-color: $base-color;
-  min-width: 280px;
+  min-width: 100%;
 
   @include tablet {
     padding: 15px 25px;

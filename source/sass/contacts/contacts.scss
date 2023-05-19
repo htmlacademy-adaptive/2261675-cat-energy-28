@@ -25,6 +25,10 @@
     padding: 56px 60px 56px 80px;
     justify-content: normal;
     column-gap: 87px;
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    background-color: $white-color;
   }
 }
 
@@ -40,6 +44,10 @@
     padding-left: 40px;
     max-width: 171px;
   }
+
+  @include destop {
+    padding-left: 0;
+  }
 }
 
 .contacts__info-text {
@@ -53,5 +61,9 @@
     line-height: 20px;
     padding-right: 40px;
     max-width: 160px;
+  }
+
+  @include destop {
+    padding-right: 0;
   }
 }
