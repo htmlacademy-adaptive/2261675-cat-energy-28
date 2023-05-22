@@ -27,7 +27,7 @@
 
 .features__item-one {
   @include tablet {
-    background-image: url(../../img/svg/1.svg);
+    background-image: url("../../img/svg/1.svg");
     background-repeat: no-repeat;
     background-position: 110px 40px;
   }
@@ -35,7 +35,7 @@
 
 .features__item-two {
   @include tablet {
-    background-image: url(../../img/svg/2.svg);
+    background-image: url("../../img/svg/2.svg");
     background-repeat: no-repeat;
     background-position: 110px 40px;
   }
@@ -43,7 +43,7 @@
 
 .features__item-three {
   @include tablet {
-    background-image: url(../../img/svg/3.svg);
+    background-image: url("../../img/svg/3.svg");
     background-repeat: no-repeat;
     background-position: 110px 40px;
   }
@@ -51,7 +51,7 @@
 
 .features__item-four {
   @include tablet {
-    background-image: url(../../img/svg/4.svg);
+    background-image: url("../../img/svg/4.svg");
     background-repeat: no-repeat;
     background-position: 110px 40px;
   }
