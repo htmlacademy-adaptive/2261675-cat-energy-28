@@ -13,6 +13,14 @@
   background-color: $base-color;
   min-width: 100%;
 
+  &:hover {
+    background: #5eaa2f;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
   @include tablet {
     padding: 15px 25px;
     font-size: 20px;

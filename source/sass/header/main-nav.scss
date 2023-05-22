@@ -30,6 +30,10 @@
   }
 }
 
+// .main-nav {
+//   position: relative;
+// }
+
 .main-nav__menu {
   @include list-reset;
   display: none;
@@ -59,11 +63,21 @@
   }
 }
 
-.main-nav__toggle {
+.main-nav__open {
+  border: none;
+  background-color: $white-color;
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.main-nav__close {
   border: none;
   background-color: $white-color;
 
-  @media (min-width: $tablet-width) {
+  @include tablet {
     display: none;
   }
 }

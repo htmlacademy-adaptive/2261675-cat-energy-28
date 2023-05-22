@@ -1,8 +1,9 @@
 .stats__content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 20px;
+  column-gap: 32px;
 
   @include tablet {
     justify-content: flex-start;
@@ -18,6 +19,12 @@
   }
 }
 
+.stats__content-block {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  border-style: solid solid none;
+}
+
 .stats__content-title {
   font-size: 24px;
   line-height: 24px;
@@ -30,11 +37,20 @@
   }
 }
 
+.stats__content-wt {
+  padding: 15px 42px 8px 42px;
+}
+
+.stats__content-days {
+  padding: 15px 21px 8px 21px;
+}
+
 .stats__content-text {
   font-family: "Lato", sans-serif;
   font-size: 12px;
   line-height: 12px;
   color: #444444;
+  text-align: center;
 
   @include tablet {
     font-size: 14px;
