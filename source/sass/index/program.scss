@@ -6,6 +6,10 @@
     margin-bottom: 30px;
     position: relative;
   }
+
+  @include destop {
+    position: static;
+  }
 }
 
 .program__title {
@@ -19,6 +23,10 @@
     line-height: 36px;
     padding-top: 75px;
     padding-left: 50px;
+  }
+
+  @include destop {
+    padding: 0;
   }
 }
 
@@ -38,6 +46,12 @@
     padding-right: 55px;
     padding-bottom: 50px;
     width: 421px;
+  }
+
+  @include destop {
+    width: 558px;
+    padding-bottom: 20px;
+    padding-top: 40px;
   }
 }
 
@@ -66,6 +80,10 @@
     padding-bottom: 50px;
     padding-top: 0;
   }
+
+  @include destop {
+    padding-bottom: 45px;
+  }
 }
 
 .program__slim {
@@ -78,6 +96,12 @@
   @include tablet {
     padding: 0;
   }
+
+  @include destop {
+    padding-top: 40px;
+    padding-left: 50px;
+    column-gap: 60px;
+  }
 }
 
 .program__slim-img {
@@ -85,6 +109,10 @@
     position: absolute;
     top: 90px;
     right: 60px;
+  }
+
+  @include destop {
+    position: static;
   }
 }
 
@@ -97,5 +125,13 @@
 
   @include tablet {
     padding: 0;
+  }
+
+  @include destop {
+    @include destop {
+      padding-top: 40px;
+      padding-left: 50px;
+      column-gap: 45px;
+    }
   }
 }
