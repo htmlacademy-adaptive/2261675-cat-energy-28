@@ -4,6 +4,7 @@
 
   @include tablet {
     margin-bottom: 30px;
+    position: relative;
   }
 }
 
@@ -16,6 +17,8 @@
   @include tablet {
     font-size: 36px;
     line-height: 36px;
+    padding-top: 75px;
+    padding-left: 50px;
   }
 }
 
@@ -30,6 +33,11 @@
     line-height: 24px;
     color: #000000;
     border: none;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 55px;
+    padding-bottom: 50px;
+    width: 421px;
   }
 }
 
@@ -54,6 +62,9 @@
     font-size: 20px;
     line-height: 30px;
     column-gap: 25px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 0;
   }
 }
 
@@ -63,6 +74,18 @@
   align-items: center;
   padding-left: 22px;
   column-gap: 19px;
+
+  @include tablet {
+    padding: 0;
+  }
+}
+
+.program__slim-img {
+  @include tablet {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+  }
 }
 
 .program__pro {
@@ -71,4 +94,8 @@
   align-items: center;
   padding-left: 13px;
   column-gap: 11px;
+
+  @include tablet {
+    padding: 0;
+  }
 }
