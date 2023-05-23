@@ -30,7 +30,7 @@
   }
 }
 
-.form-add__check-text {
+.form-add__check-label {
   font-size: 16px;
   line-height: 18px;
   display: flex;
@@ -48,4 +48,34 @@
 
 .form-add__check-list {
   display: flex;
+}
+
+.form-add__check-input {
+  margin-right: 16px;
+  appearance: none;
+  position: absolute;
+}
+
+.form-add__check-label::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+}
+
+.form-add__check-label::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 14px;
+
+  background: url("../../img/svg/checkbox.svg") no-repeat;
+  opacity: 0;
+  position: absolute;
+  left: 26px;
+}
+
+.form-add__check-input:checked + .form-add__check-label::after {
+  opacity: 1;
 }

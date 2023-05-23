@@ -2,6 +2,7 @@
   padding-top: 22px;
   padding-bottom: 16px;
   border-bottom: 1px solid #d9d9d9;
+  position: relative;
 
   @include tablet {
     padding: 25px 0 25px 30px;
@@ -14,18 +15,51 @@
   padding-bottom: 13px;
 }
 
-.radio__item {
+.radio__input {
   margin-right: 15px;
+  appearance: none;
+  position: absolute;
 }
 
-.radio__text {
+.radio__label {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
   color: #222222;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 15px;
 
   @include tablet {
     font-size: 20px;
     line-height: 30px;
   }
+}
+
+.radio__label::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+}
+
+.radio__label::after {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 13px;
+
+  background-color: $base-color;
+  border-radius: 50%;
+  opacity: 0;
+
+  position: absolute;
+  left: 29px;
+}
+
+.radio__input:checked + .radio__label::after {
+  opacity: 1;
 }
