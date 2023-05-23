@@ -12,12 +12,12 @@
 
 .contacts__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   column-gap: 2px;
   padding: 26px 20px 26px 20px;
 
   @include tablet {
-    justify-content: space-between;
     padding: 60px 70px 56px 70px;
   }
 

@@ -1,3 +1,9 @@
+.form-input__form-comment {
+  @include tablet {
+    padding: 0 70px;
+  }
+}
+
 .form-input__container {
   @include destop {
     display: flex;
