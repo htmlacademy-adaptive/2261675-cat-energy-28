@@ -18,6 +18,7 @@
 
   @include tablet {
     justify-content: space-between;
+    padding: 60px 70px 56px 70px;
   }
 
   @include destop {
@@ -41,7 +42,6 @@
   @include tablet {
     font-size: 20px;
     line-height: 26px;
-    padding-left: 40px;
     max-width: 171px;
   }
 
@@ -59,7 +59,6 @@
   @include tablet {
     font-size: 16px;
     line-height: 20px;
-    padding-right: 40px;
     max-width: 160px;
   }
 

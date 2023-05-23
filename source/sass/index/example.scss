@@ -6,6 +6,7 @@
 
   @include tablet {
     background-color: $white-color;
+    padding-bottom: 0;
   }
 
   @include destop {
@@ -39,6 +40,7 @@
     line-height: 60px;
     padding-bottom: 65px;
     background-color: $white-color;
+    border-top: 1px solid #e6e6e6;
   }
 
   @include destop {

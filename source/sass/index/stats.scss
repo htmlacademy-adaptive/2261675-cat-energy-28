@@ -22,7 +22,8 @@
 .stats__content-block {
   border: 1px solid #cdcdcd;
   border-radius: 3px;
-  border-style: solid solid none;
+
+  position: relative;
 }
 
 .stats__content-title {
@@ -38,11 +39,19 @@
 }
 
 .stats__content-wt {
-  padding: 15px 42px 8px 42px;
+  padding: 15px 42px 17px 42px;
+
+  @include tablet {
+    padding: 15px 57px 20px 57px;
+  }
 }
 
 .stats__content-days {
-  padding: 15px 21px 8px 21px;
+  padding: 15px 21px 17px 21px;
+
+  @include tablet {
+    padding: 15px 30px 20px 30px;
+  }
 }
 
 .stats__content-text {
@@ -51,10 +60,30 @@
   line-height: 12px;
   color: #444444;
   text-align: center;
+  display: inline-block;
+  background-color: $green-color;
+  position: absolute;
+  top: 47px;
+  left: 22px;
+  min-width: 77px;
 
   @include tablet {
     font-size: 14px;
     line-height: 14px;
+    min-width: 125px;
+    background-color: $white-color;
+    top: 63px;
+    left: 17px;
+  }
+
+  @include destop {
+    background-color: $green-color;
+  }
+}
+
+.stats__content-text br {
+  @include tablet {
+    display: none;
   }
 }
 
