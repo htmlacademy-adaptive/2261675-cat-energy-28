@@ -30,7 +30,7 @@
   }
 
   @include destop {
-    width: 570px;
+    min-width: 570px;
   }
 }
 
