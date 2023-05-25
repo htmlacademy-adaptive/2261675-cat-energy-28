@@ -30,10 +30,6 @@
   }
 
   @include destop {
-    &:last-child {
-      padding-bottom: 0;
-    }
-
     width: 570px;
   }
 }
@@ -50,5 +46,6 @@
   @include tablet {
     font-size: 20px;
     line-height: 30px;
+    padding: 11px 0 11px 20px;
   }
 }

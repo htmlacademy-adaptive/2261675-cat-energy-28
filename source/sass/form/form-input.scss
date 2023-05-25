@@ -2,6 +2,10 @@
   @include tablet {
     padding: 0 70px;
   }
+
+  @include destop {
+    padding: 0 110px;
+  }
 }
 
 .form-input__container {
@@ -40,9 +44,12 @@
     display: flex;
     column-gap: 65px;
     align-items: center;
-    margin-top: 55px;
     margin-bottom: 72px;
     padding: 0 70px;
+  }
+
+  @include destop {
+    padding: 0 110px;
   }
 }
 
@@ -52,6 +59,7 @@
   }
 
   @include destop {
+    padding: 0 110px;
     display: flex;
     justify-content: space-between;
   }

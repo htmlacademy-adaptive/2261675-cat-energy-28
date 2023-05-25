@@ -12,6 +12,10 @@
     margin-bottom: 75px;
     padding-left: 70px;
   }
+
+  @include destop {
+    padding-left: 110px;
+  }
 }
 
 .form-data__text-input {
