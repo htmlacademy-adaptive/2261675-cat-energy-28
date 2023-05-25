@@ -44,6 +44,11 @@
   height: 30px;
   border: 1px solid #cdcdcd;
   border-radius: 50%;
+
+  @include tablet {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .radio__label::after {
