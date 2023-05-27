@@ -1,6 +1,30 @@
 .example {
   background-color: $green-color;
   padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    background-color: $white-color;
+    padding-bottom: 0;
+  }
+
+  @include destop {
+    background-color: $green-color;
+    flex-direction: row;
+  }
+}
+
+.example__wrapper {
+  padding: 0 20px;
+
+  @include tablet {
+    padding: 0 30px;
+  }
+
+  @include destop {
+    padding: 70px 225px 0 110px;
+  }
 }
 
 .example__title {
@@ -9,10 +33,35 @@
   color: #000000;
   padding-top: 25px;
   padding-bottom: 40px;
+  background-color: $green-color;
+
+  @include tablet {
+    font-size: 60px;
+    line-height: 60px;
+    padding-bottom: 65px;
+    background-color: $white-color;
+    border-top: 1px solid #e6e6e6;
+  }
+
+  @include destop {
+    padding-bottom: 75px;
+  }
 }
 
 .example__text {
   font-family: "Lato", "Arial", sans-serif;
   color: #444444;
   padding-bottom: 20px;
+
+  @include tablet {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 708px;
+    padding-bottom: 54px;
+  }
+
+  @include destop {
+    max-width: 436px;
+    padding-bottom: 69px;
+  }
 }

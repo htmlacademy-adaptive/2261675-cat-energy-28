@@ -1,15 +1,45 @@
+.form-comment {
+  padding: 0 70px;
+}
+
 .form-comment__subtitle {
   font-size: 24px;
   line-height: 26px;
   color: #000000;
   margin-top: 23px;
   margin-bottom: 37px;
+
+  @include tablet {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 65px;
+    margin-bottom: 75px;
+  }
 }
 
 .form-comment__text {
+  font-family: "Oswaldregular", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   color: #444444;
   border: 1px solid #e7e7e7;
   margin-bottom: 23px;
+  min-width: 100%;
+  min-height: 150px;
+  text-align: center;
+  padding-top: 9px;
+
+  @include tablet {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 30px;
+    min-height: 175px;
+    text-align: left;
+    padding-left: 19px;
+    padding-top: 10px;
+  }
+
+  @include destop {
+    min-height: 175px;
+  }
 }

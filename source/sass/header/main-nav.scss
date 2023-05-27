@@ -7,6 +7,21 @@
   @media (min-width: $tablet-width) {
     font-size: 18px;
     line-height: 24px;
+    height: 35px;
+
+    &--active {
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        background: $base-color;
+      }
+    }
   }
 
   @media (min-width: $destop-width) {
@@ -14,6 +29,10 @@
     line-height: 30px;
   }
 }
+
+// .main-nav {
+//   position: relative;
+// }
 
 .main-nav__menu {
   @include list-reset;
@@ -23,28 +42,42 @@
     display: flex;
     justify-content: flex-end;
     gap: 35px;
+    padding-top: 17px;
   }
 
   @media (min-width: $destop-width) {
-    display: flex;
-    justify-content: flex-end;
     gap: 33px;
+    padding-top: 70px;
   }
 }
 
-.main-nav__menu-item a {
+.main-nav__menu-item a[href] {
   color: $dark-color;
 
-  @media (min-width: $destop-width) {
-    color: #ffffff;
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:focus {
+    opacity: 0.3;
   }
 }
 
-.main-nav__toggle {
+.main-nav__open {
   border: none;
-  background-color: #ffffff;
+  background-color: $white-color;
+  display: none;
 
   @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.main-nav__close {
+  border: none;
+  background-color: $white-color;
+
+  @include tablet {
     display: none;
   }
 }

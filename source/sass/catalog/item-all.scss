@@ -1,9 +1,12 @@
 .item-all {
+  // min-width: 325px;
+  // padding: 0;
   position: relative;
 }
 
 .item-all__button-svg {
   position: absolute;
+  top: 25px;
 }
 
 .item-all__title {
@@ -14,7 +17,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #111111;
-  padding-top: 23px;
+  padding-top: 80px;
   padding-bottom: 8px;
 }
 
@@ -28,7 +31,6 @@
 }
 
 .item-all__button-all {
-  // font: normal, 400, 14px/18px, "oswald", sans-serif;
   font-family: "oswald", sans-serif;
   display: inline-flex;
   justify-content: center;

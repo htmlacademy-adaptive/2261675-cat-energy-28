@@ -14,4 +14,43 @@
   align-items: center;
   padding-top: 10px;
   padding-bottom: 18px;
+
+  @include tablet {
+    padding: 0 30px;
+  }
+
+  @include destop {
+    padding-bottom: 0;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
+
+.main-header__logo {
+  @include tablet {
+    display: flex;
+    gap: 20px;
+  }
+
+  @include destop {
+    gap: 15px;
+    padding-top: 55px;
+  }
+}
+
+.main-header__logo-catenergy {
+  position: absolute;
+  top: 23px;
+  left: 110px;
+
+  @include tablet {
+    position: static;
+    padding-top: 20px;
+  }
+}
+
+.main-header__logo-cat {
+  @include tablet {
+    padding-top: 7px;
+  }
 }

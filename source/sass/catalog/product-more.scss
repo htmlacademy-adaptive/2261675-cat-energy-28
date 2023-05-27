@@ -1,7 +1,26 @@
-.product-more__title {
+.main-catalog__catalog-subtittle {
   font-size: 24px;
   line-height: 24px;
   color: #000000;
   margin-top: 25px;
   margin-bottom: 36px;
+
+  @include tablet {
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+  }
+
+  @include destop {
+    margin-top: 75px;
+    margin-bottom: 80px;
+  }
+}
+
+.product-more__more-list {
+  @include destop {
+    min-width: 895px;
+    padding-right: 80px;
+  }
 }

@@ -7,4 +7,10 @@
   line-height: 40px;
   color: #000000;
   padding-bottom: 40px;
+
+  @include tablet {
+    font-size: 60px;
+    line-height: 60px;
+    padding-bottom: 32px;
+  }
 }

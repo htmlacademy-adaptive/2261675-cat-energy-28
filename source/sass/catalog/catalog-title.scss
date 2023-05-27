@@ -6,4 +6,18 @@
   border-bottom: 1px solid #ebebeb;
   padding-top: 27px;
   padding-bottom: 41px;
+
+  @include tablet {
+    border: none;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 65px;
+    margin-bottom: 85px;
+  }
+
+  @include destop {
+    margin-top: 188px;
+  }
 }

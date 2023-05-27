@@ -1,6 +1,15 @@
 .input-name {
   padding-bottom: 11px;
   border-bottom: 1px solid #d9d9d9;
+
+  @include tablet {
+    padding: 0 67px 50px 70px;
+    border: none;
+  }
+
+  @include destop {
+    padding: 0;
+  }
 }
 
 .input-name__text {
@@ -12,6 +21,17 @@
   font-size: 16px;
   text-transform: uppercase;
   color: #444444;
+
+  @include tablet {
+    padding-bottom: 0;
+    font-size: 20px;
+    line-height: 30px;
+    min-width: 630px;
+  }
+
+  @include destop {
+    min-width: 570px;
+  }
 }
 
 .input-name__desc {
@@ -21,4 +41,17 @@
   border: 1px solid #e7e7e7;
   padding: 14px 0 13px 20px;
   min-width: 173px;
+  flex-grow: 1;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 11px 0 11px 20px;
+  }
+}
+
+.input-name__item:not(:last-child) {
+  @include tablet {
+    padding-bottom: 20px;
+  }
 }

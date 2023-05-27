@@ -1,0 +1,13 @@
+.footer-item__logo-svg {
+  &:hover {
+    fill: #3e3e3e;
+  }
+
+  &:focus {
+    fill: #3e3e3e;
+  }
+
+  &:active {
+    fill: #6b6b6b;
+  }
+}

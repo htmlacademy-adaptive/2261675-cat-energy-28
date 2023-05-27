@@ -1,8 +1,76 @@
+.form-input__form-comment {
+  @include tablet {
+    padding: 0 70px;
+  }
+
+  @include destop {
+    padding: 0 110px;
+  }
+}
+
+.form-input__container {
+  @include destop {
+    display: flex;
+    padding: 0 110px;
+    justify-content: space-between;
+    column-gap: 80px;
+  }
+}
+
+.form-input__name {
+  @include destop {
+    min-width: 570px;
+    padding: 0;
+  }
+}
+
 .form-input__desc-text {
   font-family: "Lato", sans-serif;
   line-height: 16px;
+  font-size: 14px;
   display: block;
   text-align: center;
   color: #000000;
   padding-bottom: 32px;
+
+  @include tablet {
+    padding: 0;
+    font-size: 16px;
+  }
+}
+
+.form-input__send {
+  @include tablet {
+    display: flex;
+    column-gap: 65px;
+    align-items: center;
+    margin-bottom: 72px;
+    padding: 0 70px;
+  }
+
+  @include destop {
+    padding: 0 110px;
+  }
+}
+
+.form-input__form-data {
+  @include tablet {
+    padding: 0 70px;
+  }
+
+  @include destop {
+    padding: 0 110px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.form-input__radio {
+  @include tablet {
+    margin: 0 70px;
+  }
+
+  @include destop {
+    margin: 0;
+  }
 }

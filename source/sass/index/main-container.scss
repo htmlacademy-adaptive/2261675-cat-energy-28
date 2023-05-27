@@ -1,5 +1,14 @@
-.main-container {
+.main-container__promo {
+  margin-bottom: 20px;
+
+  @include destop {
+    position: relative;
+    margin-bottom: 80px;
+  }
 }
 
-main-container__promo {
+.main-container__contacts {
+  @include destop {
+    position: relative;
+  }
 }

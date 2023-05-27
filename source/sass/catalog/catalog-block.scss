@@ -2,12 +2,50 @@
   padding-top: 19px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ebebeb;
+
+  @include tablet {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 325px));
+    justify-content: space-between;
+    gap: 60px;
+    min-height: 510px;
+    border: none;
+    padding: 0 30px;
+  }
+
+  @include destop {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 80px;
+    row-gap: 63px;
+    padding: 0 110px;
+  }
 }
 
 .catalog-block__catalog-item {
   display: grid;
-  grid-template-columns: 140px 140px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 112px;
   border-bottom: 1px solid #ebebeb;
   padding-top: 25px;
+
+  @include tablet {
+    // display: flex;
+    // flex-direction: column;
+    grid-template-columns: 1fr;
+    align-items: center;
+    min-width: 325px;
+    padding: 0;
+    border: none;
+    background-color: #f2f2f2;
+  }
+
+  @include destop {
+    min-width: 245px;
+  }
+}
+
+.catalog-block__item-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

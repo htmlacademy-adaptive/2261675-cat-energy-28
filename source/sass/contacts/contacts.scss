@@ -1,28 +1,68 @@
-.contacts {
+.contacts__container-white {
+  background-color: $white-color;
+}
+
+.contacts__container-green {
   background-color: $green-color;
 
-  &__container {
-    display: flex;
-    align-items: center;
-    column-gap: 2px;
-    padding: 26px 20px 26px 20px;
+  @include destop {
+    background-color: $white-color;
+  }
+}
+
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2px;
+  padding: 26px 20px 26px 20px;
+
+  @include tablet {
+    padding: 60px 70px 56px 70px;
   }
 
-  &__info-title {
-    font-style: normal;
-    font-weight: 400;
+  @include destop {
+    min-width: 565px;
+    padding: 56px 60px 56px 80px;
+    justify-content: normal;
+    column-gap: 87px;
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    background-color: $white-color;
+  }
+}
+
+.contacts__info-title {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
+
+  @include tablet {
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 171px;
+  }
+
+  @include destop {
+    padding-left: 0;
+  }
+}
+
+.contacts__info-text {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+
+  @include tablet {
     font-size: 16px;
     line-height: 20px;
-    text-transform: uppercase;
-    color: #111111;
+    max-width: 160px;
   }
 
-  &__info-text {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #444444;
+  @include destop {
+    padding-right: 0;
   }
 }
