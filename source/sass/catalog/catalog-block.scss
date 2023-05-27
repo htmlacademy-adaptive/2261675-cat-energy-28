@@ -43,3 +43,9 @@
     min-width: 245px;
   }
 }
+
+.catalog-block__item-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
